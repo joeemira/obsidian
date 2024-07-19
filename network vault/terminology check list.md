@@ -1,0 +1,1 @@
+DNS - subdomain -record type (A-AAAA-cname -ptr-SOA)

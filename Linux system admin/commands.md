@@ -1,0 +1,10 @@
+ - date : shows date 
+ - file /sdan/passwd  : shows the type of the file 
+ - cat  : read the whole file content
+ - less : the same as cat but  one page at a time
+ - head % tail   : shows first or last 10 lines    -n 10
+ - history   
+ - to run a command from history : !num of command in history    
+ - !!  to run the last command 
+ - ![[Pasted image 20240609223028.png]]
+ - 
