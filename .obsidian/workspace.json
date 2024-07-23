@@ -4,143 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "876f2d20dc529b12",
+        "id": "f3b251f0fdf1cafe",
         "type": "tabs",
         "children": [
           {
-            "id": "03b33b52235c0b83",
+            "id": "2147c9ab56dd6925",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "series and movies/series.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "899ea2bb03b7b61b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "security reources/Links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62fd9eaabe9ea7b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reminder.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "026661f2a78b3734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS codes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "657c0afeb9292d82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reminder.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e78d787b3f1dce5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "to do list for the week/second  week of the  summer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e96627245877de5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/bash scripts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40bb8bea018d7089",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caf6f519edce5cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/Information gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee1b83f2683e66e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdca6f32efdd6844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "practical ethical hacking/BROKEN AUTHENTICATION.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
+                "file": "practical ethical hacking/BROKEN AUTHENTICATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
+                "file": "practical ethical hacking/BROKEN AUTHENTICATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md"
+                "file": "practical ethical hacking/BROKEN AUTHENTICATION.md"
               }
             }
           }
@@ -254,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,49 +145,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee1b83f2683e66e4",
+  "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "Pasted image 20240714202108.png",
-    "Unti.md",
-    "practical ethical hacking/WEB ATTACKS.md",
     "practical ethical hacking/Information gathering.md",
-    "practical ethical hacking/buffer overflow.md",
-    "practical ethical hacking/Enumeration.md",
+    "practical ethical hacking/IDOR.md",
+    "practical ethical hacking/WEB ATTACKS.md",
+    "practical ethical hacking/BROKEN AUTHENTICATION.md",
+    "Linux system admin/commands.md",
+    "linux/comand.md",
+    "JS/NOTES.md",
+    "JS/JS codes.md",
+    "german/links.md",
     "practical ethical hacking/web techniques.md",
     "practical ethical hacking/Exploitation.md",
+    "practical ethical hacking/Enumeration.md",
+    "practical ethical hacking/buffer overflow.md",
+    "practical ethical hacking/bash scripts.md",
+    "network vault/terminology check list.md",
+    "to do list for the week/second  week of the  summer.md",
+    "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
+    "2024-06-09.md",
+    "millstones achieved.md",
+    "Pasted image 20240714202108.png",
+    "Unti.md",
     "php/links.md",
     "Notes/A must Knowledge for a pentester.md",
-    "practical ethical hacking/bash scripts.md",
     "Pasted image 20240711235635.png",
-    "network vault/terminology check list.md",
     "Pasted image 20240710192845.png",
     "Pasted image 20240710192836.png",
     "Pasted image 20240710192440.png",
     "practical ethical hacking/python.md",
     "series and movies/series.md",
-    "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "Untitled",
     "Untitled 1.md",
     "Pasted image 20240704103340.png",
     "Pasted image 20240703111247.png",
     "Pasted image 20240703111114.png",
-    "linux/comand.md",
     "practical ethical hacking",
     "Pasted image 20240702101015.png",
-    "Pasted image 20240702100819.png",
-    "2024-06-09.md",
     "linux",
     "reminder.md",
     "Untitled.md",
-    "millstones achieved.md",
-    "to do list for the week/second  week of the  summer.md",
-    "security reources/Links.md",
-    "security reources/channels.md",
-    "german/links.md",
     "to do list for the week",
-    "mysql/notes.md",
-    "php/php.md",
     "php",
     "mysql",
     "german",
