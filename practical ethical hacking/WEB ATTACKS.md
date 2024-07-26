@@ -7,3 +7,4 @@
 ![[Pasted image 20240714202108.png]]
 Force browsing 
 force the application to open a panel or dashboard or file 
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master

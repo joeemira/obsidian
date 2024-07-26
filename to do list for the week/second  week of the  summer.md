@@ -20,3 +20,6 @@
    - [ ] ein thema schreiben 
    - [ ] bis 5 uhr in die linux video 
    - [ ] episode 1 von dark 
+TODAY 
+- [ ] german lektion 
+- [ ] 
