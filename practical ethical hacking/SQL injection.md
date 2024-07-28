@@ -12,4 +12,6 @@
 - after checking for numbers of calls  then you should use this 
 - ` jeremy 'union select 1,2,table_name from information_schema.tables where table_schema =database() ; #`
 - you use a valid syntax and then u inject the payload 
-- 
+- portswigger sql cheat sheet 
+
+==try to search for any thing injectable like cookies validation or any thing 
