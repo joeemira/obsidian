@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/bash scripts.md",
+                "file": "practical ethical hacking/Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/bash scripts.md",
+                "file": "practical ethical hacking/Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/bash scripts.md",
+                "file": "practical ethical hacking/Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/bash scripts.md"
+                "file": "practical ethical hacking/Exploitation.md"
               }
             }
           }
@@ -147,11 +147,16 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
+    "practical ethical hacking/Information gathering.md",
+    "practical ethical hacking/python.md",
+    "practical ethical hacking/WEB ATTACKS.md",
+    "practical ethical hacking/web techniques.md",
+    "mysql/notes.md",
+    "practical ethical hacking/bash scripts.md",
     "practical ethical hacking/SQL injection.md",
     "Pasted image 20240728122041.png",
     "Pasted image 20240728121425.png",
     "practical ethical hacking/File inclusion  and  Path traversal.md",
-    "practical ethical hacking/WEB ATTACKS.md",
     "to do list for the week/second  week of the  summer.md",
     "Untitled 2.md",
     "Notes/A must Knowledge for a pentester.md",
@@ -159,17 +164,14 @@
     "practical ethical hacking/BROKEN AUTHENTICATION.md",
     "Pasted image 20240723212917.png",
     "Pasted image 20240723203203.png",
-    "practical ethical hacking/Information gathering.md",
     "practical ethical hacking/IDOR.md",
     "linux/comand.md",
     "JS/NOTES.md",
     "JS/JS codes.md",
     "german/links.md",
-    "practical ethical hacking/web techniques.md",
     "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Enumeration.md",
     "practical ethical hacking/buffer overflow.md",
-    "practical ethical hacking/bash scripts.md",
     "network vault/terminology check list.md",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
     "2024-06-09.md",
@@ -181,7 +183,6 @@
     "Pasted image 20240710192845.png",
     "Pasted image 20240710192836.png",
     "Pasted image 20240710192440.png",
-    "practical ethical hacking/python.md",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "Untitled",
     "practical ethical hacking",
