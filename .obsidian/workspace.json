@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/Exploitation.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/Exploitation.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/Exploitation.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/Exploitation.md"
+                "file": "practical ethical hacking/SQL injection.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
+    "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Information gathering.md",
     "practical ethical hacking/python.md",
     "practical ethical hacking/WEB ATTACKS.md",
@@ -169,7 +170,6 @@
     "JS/NOTES.md",
     "JS/JS codes.md",
     "german/links.md",
-    "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Enumeration.md",
     "practical ethical hacking/buffer overflow.md",
     "network vault/terminology check list.md",
