@@ -24,4 +24,4 @@
 - you use a valid syntax and then u inject the payload 
 - portswigger sql cheat sheet 
 
-==try to search for any thing injectable like cookies validation or any thing 
+	==try to search for any thing injectable like cookies validation or any thing 
