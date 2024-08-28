@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/XXE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/XXE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/XXE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md"
+                "file": "practical ethical hacking/XXE.md"
               }
             }
           }
@@ -147,8 +147,11 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "practical ethical hacking/File inclusion  and  Path traversal.md",
+    "Pasted image 20240827214353.png",
+    "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
+    "practical ethical hacking/XXE.md",
+    "practical ethical hacking/File inclusion  and  Path traversal.md",
     "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Information gathering.md",
     "practical ethical hacking/python.md",
@@ -177,12 +180,9 @@
     "2024-06-09.md",
     "millstones achieved.md",
     "Pasted image 20240714202108.png",
-    "Unti.md",
-    "php/links.md",
     "Pasted image 20240711235635.png",
     "Pasted image 20240710192845.png",
     "Pasted image 20240710192836.png",
-    "Pasted image 20240710192440.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "Untitled",
     "practical ethical hacking",
