@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d8f56e2a1b345f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reports/File inclusion task report.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SESSION.md",
+                "file": "reports/File inclusion task report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SESSION.md",
+                "file": "reports/File inclusion task report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SESSION.md"
+                "file": "reports/File inclusion task report.md"
               }
             }
           }
@@ -145,10 +158,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2147c9ab56dd6925",
+  "active": "7d8f56e2a1b345f3",
   "lastOpenFiles": [
-    "practical ethical hacking/XXE.md",
+    "Pasted image 20240831165428.png",
+    "Untitled 3.md",
+    "reports/File inclusion task report.md",
+    "reports",
     "practical ethical hacking/SESSION.md",
+    "practical ethical hacking/XXE.md",
     "Pasted image 20240827214353.png",
     "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
@@ -176,15 +193,11 @@
     "german/links.md",
     "practical ethical hacking/Enumeration.md",
     "practical ethical hacking/buffer overflow.md",
-    "network vault/terminology check list.md",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
-    "2024-06-09.md",
-    "millstones achieved.md",
     "Pasted image 20240714202108.png",
     "Pasted image 20240711235635.png",
     "Pasted image 20240710192845.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "Untitled",
     "practical ethical hacking",
     "linux",
     "to do list for the week",
