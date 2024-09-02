@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/File inclusion task report.md",
+                "file": "NETWORK AND CRYPTO/SSL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f92841d6cf06efd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "links for sec/links.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/File inclusion task report.md",
+                "file": "links for sec/links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reports/File inclusion task report.md",
+                "file": "links for sec/links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reports/File inclusion task report.md"
+                "file": "links for sec/links.md"
               }
             }
           }
@@ -158,11 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d8f56e2a1b345f3",
+  "active": "f92841d6cf06efd5",
   "lastOpenFiles": [
+    "NETWORK AND CRYPTO/SSL.md",
+    "links for sec/links.md",
+    "links for sec",
+    "MOBILE HARDWARE.md",
+    "network vault/terminology check list.md",
+    "reports/File inclusion task report.md",
+    "NETWORK AND CRYPTO",
     "Pasted image 20240831165428.png",
     "Untitled 3.md",
-    "reports/File inclusion task report.md",
     "reports",
     "practical ethical hacking/SESSION.md",
     "practical ethical hacking/XXE.md",
@@ -190,21 +208,15 @@
     "linux/comand.md",
     "JS/NOTES.md",
     "JS/JS codes.md",
-    "german/links.md",
-    "practical ethical hacking/Enumeration.md",
-    "practical ethical hacking/buffer overflow.md",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
     "Pasted image 20240714202108.png",
     "Pasted image 20240711235635.png",
-    "Pasted image 20240710192845.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
     "linux",
     "to do list for the week",
     "php",
     "mysql",
-    "german",
-    "Linux system admin",
-    "network vault"
+    "german"
   ]
 }
