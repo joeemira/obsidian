@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "links for sec/links.md",
+                "file": "practical ethical hacking/XXE.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f242769cce39774e",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "links for sec/links.md",
+                "file": "practical ethical hacking/XXE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "links for sec/links.md",
+                "file": "practical ethical hacking/XXE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "links for sec/links.md"
+                "file": "practical ethical hacking/XXE.md"
               }
             }
           }
@@ -158,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,8 +174,13 @@
   },
   "active": "f92841d6cf06efd5",
   "lastOpenFiles": [
-    "NETWORK AND CRYPTO/SSL.md",
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/Insecure deserialization.md",
+    "Pasted image 20240906120303.png",
+    "Insecure Deserialization.pdf",
+    "practical ethical hacking/XXS.md",
     "links for sec/links.md",
+    "NETWORK AND CRYPTO/SSL.md",
     "links for sec",
     "MOBILE HARDWARE.md",
     "network vault/terminology check list.md",
@@ -205,18 +212,13 @@
     "Pasted image 20240723212917.png",
     "Pasted image 20240723203203.png",
     "practical ethical hacking/IDOR.md",
-    "linux/comand.md",
-    "JS/NOTES.md",
-    "JS/JS codes.md",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
     "Pasted image 20240714202108.png",
-    "Pasted image 20240711235635.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
     "linux",
     "to do list for the week",
     "php",
-    "mysql",
-    "german"
+    "mysql"
   ]
 }

