@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/XXE.md",
+                "file": "practical ethical hacking/clickjacking.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f242769cce39774e",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/XXE.md",
+                "file": "practical ethical hacking/clickjacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/XXE.md",
+                "file": "practical ethical hacking/clickjacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/XXE.md"
+                "file": "practical ethical hacking/clickjacking.md"
               }
             }
           }
@@ -174,12 +173,16 @@
   },
   "active": "f92841d6cf06efd5",
   "lastOpenFiles": [
+    "practical ethical hacking/tools and commands.md",
+    "practical ethical hacking/clickjacking.md",
+    "Pasted image 20240908055225.png",
+    "links for sec/links.md",
+    "practical ethical hacking/XXE.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/Insecure deserialization.md",
     "Pasted image 20240906120303.png",
     "Insecure Deserialization.pdf",
     "practical ethical hacking/XXS.md",
-    "links for sec/links.md",
     "NETWORK AND CRYPTO/SSL.md",
     "links for sec",
     "MOBILE HARDWARE.md",
@@ -190,7 +193,6 @@
     "Untitled 3.md",
     "reports",
     "practical ethical hacking/SESSION.md",
-    "practical ethical hacking/XXE.md",
     "Pasted image 20240827214353.png",
     "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
@@ -208,12 +210,9 @@
     "Untitled 2.md",
     "Notes/A must Knowledge for a pentester.md",
     "Linux system admin/commands.md",
-    "practical ethical hacking/BROKEN AUTHENTICATION.md",
     "Pasted image 20240723212917.png",
     "Pasted image 20240723203203.png",
-    "practical ethical hacking/IDOR.md",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
-    "Pasted image 20240714202108.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
     "linux",
