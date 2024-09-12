@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/clickjacking.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/clickjacking.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/clickjacking.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/clickjacking.md"
+                "file": "practical ethical hacking/web techniques.md"
               }
             }
           }
@@ -173,16 +173,17 @@
   },
   "active": "f92841d6cf06efd5",
   "lastOpenFiles": [
+    "practical ethical hacking/XXE.md",
+    "practical ethical hacking/XXS.md",
+    "practical ethical hacking/WEB ATTACKS.md",
     "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/clickjacking.md",
     "Pasted image 20240908055225.png",
     "links for sec/links.md",
-    "practical ethical hacking/XXE.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/Insecure deserialization.md",
     "Pasted image 20240906120303.png",
     "Insecure Deserialization.pdf",
-    "practical ethical hacking/XXS.md",
     "NETWORK AND CRYPTO/SSL.md",
     "links for sec",
     "MOBILE HARDWARE.md",
@@ -200,7 +201,6 @@
     "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Information gathering.md",
     "practical ethical hacking/python.md",
-    "practical ethical hacking/WEB ATTACKS.md",
     "practical ethical hacking/web techniques.md",
     "mysql/notes.md",
     "practical ethical hacking/bash scripts.md",
