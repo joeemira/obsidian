@@ -37,8 +37,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/web techniques.md",
+                "file": "practical ethical hacking/ACCESS control.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fb048017680cd29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "practical ethical hacking/File inclusion  and  Path traversal.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -74,7 +86,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/web techniques.md",
+                "file": "practical ethical hacking/ACCESS control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/web techniques.md",
+                "file": "practical ethical hacking/ACCESS control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/web techniques.md"
+                "file": "practical ethical hacking/ACCESS control.md"
               }
             }
           }
@@ -171,8 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f92841d6cf06efd5",
+  "active": "81f0f1b9209c4152",
   "lastOpenFiles": [
+    "practical ethical hacking/BROKEN AUTHENTICATION.md",
+    "practical ethical hacking/File inclusion  and  Path traversal.md",
+    "practical ethical hacking/Exploitation.md",
+    "practical ethical hacking/buffer overflow.md",
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/python.md",
+    "Untitled 2.md",
+    "practical ethical hacking/ACCESS control.md",
+    "practical ethical hacking/web techniques.md",
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/WEB ATTACKS.md",
@@ -180,7 +201,6 @@
     "practical ethical hacking/clickjacking.md",
     "Pasted image 20240908055225.png",
     "links for sec/links.md",
-    "practical ethical hacking/CSRF.md",
     "practical ethical hacking/Insecure deserialization.md",
     "Pasted image 20240906120303.png",
     "Insecure Deserialization.pdf",
@@ -197,19 +217,11 @@
     "Pasted image 20240827214353.png",
     "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
-    "practical ethical hacking/File inclusion  and  Path traversal.md",
-    "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/Information gathering.md",
-    "practical ethical hacking/python.md",
-    "practical ethical hacking/web techniques.md",
     "mysql/notes.md",
     "practical ethical hacking/bash scripts.md",
     "Pasted image 20240728122041.png",
     "Pasted image 20240728121425.png",
-    "to do list for the week/second  week of the  summer.md",
-    "Untitled 2.md",
-    "Notes/A must Knowledge for a pentester.md",
-    "Linux system admin/commands.md",
     "Pasted image 20240723212917.png",
     "Pasted image 20240723203203.png",
     "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",

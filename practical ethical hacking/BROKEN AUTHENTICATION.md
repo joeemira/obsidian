@@ -1,4 +1,3 @@
-
 happens when the verification  happens in server side 
 OTP bypass
 - intercept the response of the request of login  and change the the response
