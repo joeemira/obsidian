@@ -159,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d8f56e2a1b345f3",
+  "active": "81f0f1b9209c4152",
   "lastOpenFiles": [
+    "joeemira.txt",
+    "New Text Document (2).txt",
+    "New folder (2)",
     "practical ethical hacking/ACCESS control.md",
     "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/CSRF.md",
@@ -195,7 +198,6 @@
     "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/Information gathering.md",
-    "mysql/notes.md",
     "Pasted image 20240728122041.png",
     "Pasted image 20240728121425.png",
     "Pasted image 20240723212917.png",
@@ -204,8 +206,6 @@
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
     "linux",
-    "to do list for the week",
-    "php",
-    "mysql"
+    "to do list for the week"
   ]
 }
