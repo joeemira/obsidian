@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/Insecure deserialization.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/Insecure deserialization.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/Insecure deserialization.md",
+                "file": "practical ethical hacking/web techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/Insecure deserialization.md"
+                "file": "practical ethical hacking/web techniques.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "7d8f56e2a1b345f3",
   "lastOpenFiles": [
+    "practical ethical hacking/vulnerabilities checklist.md",
+    "practical ethical hacking/Insecure deserialization.md",
     "practical ethical hacking/IDOR.md",
     "NETWORK AND CRYPTO/SSL.md",
     "New folder/Pasted image 20240627155646.png",
@@ -192,7 +194,6 @@
     "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/clickjacking.md",
     "links for sec/links.md",
-    "practical ethical hacking/Insecure deserialization.md",
     "Insecure Deserialization.pdf",
     "links for sec",
     "MOBILE HARDWARE.md",
@@ -203,7 +204,6 @@
     "reports",
     "practical ethical hacking/SESSION.md",
     "practical ethical hacking/SQL injection.md",
-    "practical ethical hacking/Information gathering.md",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
     "linux"
