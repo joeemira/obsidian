@@ -7,17 +7,8 @@ if not exist "C:\Users\youss\OneDrive\Documents\Obsidian Vault" (
     exit /b
 )
 
-:: Check if there is a .gitignore file that might be excluding .md files
-echo Checking for ignored .md files...
-git check-ignore -v *.md
-if %ERRORLEVEL% neq 0 (
-    echo No .md files are being ignored.
-) else (
-    echo Some .md files are ignored! Consider updating your .gitignore file.
-)
-
-:: Add all files, force add in case .md files are ignored
-git add -f .
+:: Add changes
+git add .
 if %ERRORLEVEL% neq 0 (
     echo Error adding files!
     exit /b
