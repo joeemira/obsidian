@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORK AND CRYPTO/SSL.md",
+                "file": "practical ethical hacking/Insecure deserialization.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORK AND CRYPTO/SSL.md",
+                "file": "practical ethical hacking/Insecure deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORK AND CRYPTO/SSL.md",
+                "file": "practical ethical hacking/Insecure deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORK AND CRYPTO/SSL.md"
+                "file": "practical ethical hacking/Insecure deserialization.md"
               }
             }
           }
@@ -159,11 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81f0f1b9209c4152",
+  "active": "7d8f56e2a1b345f3",
   "lastOpenFiles": [
+    "practical ethical hacking/IDOR.md",
+    "NETWORK AND CRYPTO/SSL.md",
+    "New folder/Pasted image 20240627155646.png",
+    "New folder/Pasted image 20240627155629.png",
+    "New folder/Pasted image 20240710192836.png",
+    "New folder/Pasted image 20240627172936.png",
+    "New folder/Pasted image 20240627161015.png",
+    "New folder/Pasted image 20240627160858.png",
+    "New folder/Pasted image 20240627160534.png",
+    "New folder/Pasted image 20240906120303.png",
+    "New folder/Pasted image 20240627154810.png",
+    "New folder/Pasted image 20240626134404.png",
+    "New folder (2)",
     "joeemira.txt",
     "New Text Document (2).txt",
-    "New folder (2)",
     "practical ethical hacking/ACCESS control.md",
     "practical ethical hacking/Exploitation.md",
     "practical ethical hacking/CSRF.md",
@@ -179,33 +191,21 @@
     "practical ethical hacking/WEB ATTACKS.md",
     "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/clickjacking.md",
-    "Pasted image 20240908055225.png",
     "links for sec/links.md",
     "practical ethical hacking/Insecure deserialization.md",
-    "Pasted image 20240906120303.png",
     "Insecure Deserialization.pdf",
-    "NETWORK AND CRYPTO/SSL.md",
     "links for sec",
     "MOBILE HARDWARE.md",
     "network vault/terminology check list.md",
     "reports/File inclusion task report.md",
     "NETWORK AND CRYPTO",
-    "Pasted image 20240831165428.png",
     "Untitled 3.md",
     "reports",
     "practical ethical hacking/SESSION.md",
-    "Pasted image 20240827214353.png",
-    "Pasted image 20240827214325.png",
     "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/Information gathering.md",
-    "Pasted image 20240728122041.png",
-    "Pasted image 20240728121425.png",
-    "Pasted image 20240723212917.png",
-    "Pasted image 20240723203203.png",
-    "3d6f8bc2-f387-46ce-af32-72d7ce230085.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking",
-    "linux",
-    "to do list for the week"
+    "linux"
   ]
 }
