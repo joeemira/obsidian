@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
-                "mode": "preview",
+                "file": "TODO/TODO LIST 2nd half of September.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
+                "file": "TODO/TODO LIST 2nd half of September.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md",
+                "file": "TODO/TODO LIST 2nd half of September.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/WEB ATTACKS.md"
+                "file": "TODO/TODO LIST 2nd half of September.md"
               }
             }
           }
@@ -161,6 +161,11 @@
   },
   "active": "7d8f56e2a1b345f3",
   "lastOpenFiles": [
+    "practical ethical hacking/access control.md",
+    "TODO/TODO LIST 2nd half of September.md",
+    "TODO",
+    "practical ethical hacking/WEB ATTACKS.md",
+    "to do list for the week/second  week of the  summer.md",
     "practical ethical hacking/web techniques.md",
     "practical ethical hacking/vulnerabilities checklist.md",
     "practical ethical hacking/Insecure deserialization.md",
@@ -190,7 +195,6 @@
     "Untitled 2.md",
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/XXS.md",
-    "practical ethical hacking/WEB ATTACKS.md",
     "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/clickjacking.md",
     "links for sec/links.md",
@@ -200,12 +204,8 @@
     "network vault/terminology check list.md",
     "reports/File inclusion task report.md",
     "NETWORK AND CRYPTO",
-    "Untitled 3.md",
     "reports",
-    "practical ethical hacking/SESSION.md",
-    "practical ethical hacking/SQL injection.md",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "practical ethical hacking",
-    "linux"
+    "practical ethical hacking"
   ]
 }
