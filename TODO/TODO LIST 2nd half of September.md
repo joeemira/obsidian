@@ -1,6 +1,4 @@
-
-- [ ] تلاوة ربع من القران ⏫ 🔁 every day 🛫 2024-09-17
-
+- [ ] <span style="color:rgb(146, 208, 80)">تلاوة ربع من القران</span> ⏫ 🔁 every day 🛫 2024-09-17
 
 
 
@@ -16,8 +14,8 @@
 
 
 
-- [ ] German study at least  2 hours a day 🔺 🔁 every day 🛫 2024-09-17 📅 2024-09-30
 
+- [ ] <span style="color:rgb(146, 208, 80)">German study at least  2 hours a day</span> 🔺 🔁 every day 🛫 2024-09-17 📅 2024-09-30
 
 
 
@@ -36,7 +34,9 @@
 
 
 
-- [ ] hunting for at least 2 hours 🔺 🔁 every day 🛫 2024-10-07 📅 2024-10-20
+
+
+- [ ] <span style="color:rgb(146, 208, 80)">hunting for at least 2 hours </span> 🔺 🔁 every day 🛫 2024-10-07 📅 2024-10-20
 
 
 
@@ -53,7 +53,8 @@
 
 
 
-- [ ] reading part of a book ⏫ 🔁 every day 🛫 2024-09-17 📅 2024-09-30
+
+- [ ] <span style="color:rgb(146, 208, 80)">reading part of a book</span> ⏫ 🔁 every day 🛫 2024-09-17 📅 2024-09-30
 
 
 
