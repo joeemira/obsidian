@@ -13,4 +13,7 @@
 12. if there is a <span style="color:rgb(146, 208, 80)">r</span><span style="color:rgb(146, 208, 80)">equest</span> needs a privileges<span style="color:rgb(146, 208, 80)"> (session /cookie ) </span>to be performed just try to access it or send it using your session <span style="color:rgb(146, 208, 80)">id</span> but try to manipulate the validation using different request method or using<span style="color:rgb(146, 208, 80)"> </span> `X-Original-URL`
 13. if there a multi step verification try to just send the<span style="color:rgb(146, 208, 80)"> second request </span>maybe there is no <span style="color:rgb(146, 208, 80)">validation</span> happens on the<span style="color:rgb(146, 208, 80)"> second request </span> 
 14. <span style="color:rgb(146, 208, 80)">try if checks for the action based on the <span style="color:rgb(146, 208, 80)">Referer header </span> </span>
-15. 
+15. if the application checks for a action by the <span style="color:rgb(146, 208, 80)">existence of an parameter</span> you can manipulate it by sending the <span style="color:rgb(146, 208, 80)">parameter</span> that he want and send the other parameter and it will not be <span style="color:rgb(146, 208, 80)">validated</span> [[practical ethical hacking/scenarios|1 access control ]]
+16. 
+
+

@@ -23,9 +23,11 @@
             "id": "7d8f56e2a1b345f3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Insecure Deserialization.pdf"
+                "file": "practical ethical hacking/access control.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Insecure Deserialization.pdf",
+                "file": "practical ethical hacking/access control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Insecure Deserialization.pdf",
+                "file": "practical ethical hacking/access control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Insecure Deserialization.pdf"
+                "file": "practical ethical hacking/access control.md"
               }
             }
           }
@@ -159,10 +161,18 @@
   },
   "active": "7d8f56e2a1b345f3",
   "lastOpenFiles": [
+    "practical ethical hacking/scenarios.md",
+    "practical ethical hacking/access control.md",
+    "scenarios.md",
+    "Pasted image 20240920202246.png",
+    "Pasted image 20240920202103.png",
+    "Pasted image 20240920202032.png",
+    "Pasted image 20240920202000.png",
+    "links for sec/links.md",
+    "TODO/TODO LIST 2nd half of September.md",
+    "Insecure Deserialization.pdf",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking/clickjacking.md",
-    "TODO/TODO LIST 2nd half of September.md",
-    "practical ethical hacking/access control.md",
     "TODO",
     "practical ethical hacking/WEB ATTACKS.md",
     "to do list for the week/second  week of the  summer.md",
@@ -177,10 +187,6 @@
     "New folder/Pasted image 20240627172936.png",
     "New folder/Pasted image 20240627161015.png",
     "New folder/Pasted image 20240627160858.png",
-    "New folder/Pasted image 20240627160534.png",
-    "New folder/Pasted image 20240906120303.png",
-    "New folder/Pasted image 20240627154810.png",
-    "New folder/Pasted image 20240626134404.png",
     "New folder (2)",
     "joeemira.txt",
     "New Text Document (2).txt",
@@ -196,11 +202,8 @@
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/tools and commands.md",
-    "links for sec/links.md",
-    "Insecure Deserialization.pdf",
     "links for sec",
     "MOBILE HARDWARE.md",
-    "network vault/terminology check list.md",
     "NETWORK AND CRYPTO",
     "reports",
     "practical ethical hacking"
