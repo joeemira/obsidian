@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SESSION.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d8f56e2a1b345f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/access control.md",
-                "mode": "source",
+                "file": "practical ethical hacking/writeups.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/access control.md",
+                "file": "practical ethical hacking/writeups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/access control.md",
+                "file": "practical ethical hacking/writeups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/access control.md"
+                "file": "practical ethical hacking/writeups.md"
               }
             }
           }
@@ -159,18 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d8f56e2a1b345f3",
+  "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "practical ethical hacking/scenarios.md",
-    "practical ethical hacking/access control.md",
+    "german/schreiben.md",
+    "practical ethical hacking/writeups.md",
+    "german/links.md",
+    "practical ethical hacking/Insecure deserialization.md",
+    "Insecure Deserialization.pdf",
+    "millstones achieved.md",
+    "MOBILE HARDWARE.md",
+    "practical ethical hacking/SESSION.md",
+    "post for LinkedIn.md",
+    "reminder.md",
     "scenarios.md",
-    "Pasted image 20240920202246.png",
-    "Pasted image 20240920202103.png",
+    "Unti.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "practical ethical hacking/access control.md",
+    "practical ethical hacking/scenarios.md",
+    "New folder/Pasted image 20240920202246.png",
+    "New folder/Pasted image 20240920202103.png",
     "Pasted image 20240920202032.png",
     "Pasted image 20240920202000.png",
     "links for sec/links.md",
     "TODO/TODO LIST 2nd half of September.md",
-    "Insecure Deserialization.pdf",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "practical ethical hacking/clickjacking.md",
     "TODO",
@@ -178,7 +178,6 @@
     "to do list for the week/second  week of the  summer.md",
     "practical ethical hacking/web techniques.md",
     "practical ethical hacking/vulnerabilities checklist.md",
-    "practical ethical hacking/Insecure deserialization.md",
     "practical ethical hacking/IDOR.md",
     "NETWORK AND CRYPTO/SSL.md",
     "New folder/Pasted image 20240627155646.png",
@@ -191,19 +190,7 @@
     "joeemira.txt",
     "New Text Document (2).txt",
     "practical ethical hacking/ACCESS control.md",
-    "practical ethical hacking/Exploitation.md",
-    "practical ethical hacking/CSRF.md",
-    "practical ethical hacking/BROKEN AUTHENTICATION.md",
-    "practical ethical hacking/bash scripts.md",
-    "practical ethical hacking/File inclusion  and  Path traversal.md",
-    "practical ethical hacking/buffer overflow.md",
-    "practical ethical hacking/python.md",
-    "Untitled 2.md",
-    "practical ethical hacking/XXE.md",
-    "practical ethical hacking/XXS.md",
-    "practical ethical hacking/tools and commands.md",
     "links for sec",
-    "MOBILE HARDWARE.md",
     "NETWORK AND CRYPTO",
     "reports",
     "practical ethical hacking"
