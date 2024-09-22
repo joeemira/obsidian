@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/writeups.md",
-                "mode": "preview",
+                "file": "practical ethical hacking/SSRF.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/writeups.md",
+                "file": "practical ethical hacking/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/writeups.md",
+                "file": "practical ethical hacking/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/writeups.md"
+                "file": "practical ethical hacking/SSRF.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "german/schreiben.md",
+    "practical ethical hacking/access control.md",
+    "practical ethical hacking/scenarios.md",
+    "practical ethical hacking/SSRF.md",
+    "example.md",
+    "practical ethical hacking/XXS.md",
     "practical ethical hacking/writeups.md",
+    "german/schreiben.md",
     "german/links.md",
     "practical ethical hacking/Insecure deserialization.md",
     "Insecure Deserialization.pdf",
@@ -163,8 +168,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled 3.md",
-    "practical ethical hacking/access control.md",
-    "practical ethical hacking/scenarios.md",
     "New folder/Pasted image 20240920202246.png",
     "New folder/Pasted image 20240920202103.png",
     "Pasted image 20240920202032.png",
@@ -178,8 +181,6 @@
     "to do list for the week/second  week of the  summer.md",
     "practical ethical hacking/web techniques.md",
     "practical ethical hacking/vulnerabilities checklist.md",
-    "practical ethical hacking/IDOR.md",
-    "NETWORK AND CRYPTO/SSL.md",
     "New folder/Pasted image 20240627155646.png",
     "New folder/Pasted image 20240627155629.png",
     "New folder/Pasted image 20240710192836.png",
@@ -189,7 +190,6 @@
     "New folder (2)",
     "joeemira.txt",
     "New Text Document (2).txt",
-    "practical ethical hacking/ACCESS control.md",
     "links for sec",
     "NETWORK AND CRYPTO",
     "reports",
