@@ -20,7 +20,8 @@ are custom HTTP callback endpoints used as a notification system for certain app
 
 
 
-# Bypassing SSRF Protection
+# Bypassing SSRF FILTERs 
+just check [payload of all things ](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery)
 ## Bypass Allowlists 
 
 ### Allowlists based on the website we are talking  
@@ -182,3 +183,13 @@ You can exploit these APIs in SSRF attacks to retrieve sensitive data and potent
 3. Use leaked credentials for privilege escalation.
 
 4. Aim for further attacks like RCE or bypassing access controls.
+
+
+
+# ideas 
+- [x] Spot Features Prone to SSRFs  like mentioned above 
+- [x] check if the website send request to any ULR 
+- [x] check if he uses referrer header for analytics by inserting you collaborator URL 
+- [x] http://127.1/admin instead of localhost and all the bypasses i mentioned earlier
+- [x] try to fiend any redirection page and try to exploit ssrf using open redirect 
+- [ ] try to escalate your blind ssrf with sellshock to make it command injection  in all the header vriables like user agent and hosts just accessing internal network and by another variable injecting shellshock payload  
