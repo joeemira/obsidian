@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
+                "file": "practical ethical hacking/SQL injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SSRF.md"
+                "file": "practical ethical hacking/SQL injection.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
+    "practical ethical hacking/SSRF.md",
     "practical ethical hacking/access control.md",
     "practical ethical hacking/scenarios.md",
-    "practical ethical hacking/SSRF.md",
     "example.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/writeups.md",
