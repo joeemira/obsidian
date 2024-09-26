@@ -68,6 +68,9 @@ Possible encoding methods include hex encoding, octal encoding, dword encoding, 
 
 
 # Escalating the Attack
+## if the web server is vulnerable to shell shock attack you might escalate the targeted server to be an internal server  using ssrf 
+[helpful link](https://github.com/anmolksachan/Blind-SSRF-with-Shellshock-exploitation)
+
 ## discovering the host 
 - **Host Discovery**:
     
@@ -192,4 +195,3 @@ You can exploit these APIs in SSRF attacks to retrieve sensitive data and potent
 - [x] check if he uses referrer header for analytics by inserting you collaborator URL 
 - [x] http://127.1/admin instead of localhost and all the bypasses i mentioned earlier
 - [x] try to fiend any redirection page and try to exploit ssrf using open redirect 
-- [ ] try to escalate your blind ssrf with sellshock to make it command injection  in all the header vriables like user agent and hosts just accessing internal network and by another variable injecting shellshock payload  
