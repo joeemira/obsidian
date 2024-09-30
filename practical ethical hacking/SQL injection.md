@@ -138,7 +138,9 @@ Here, the attacker is using SQL Server’s `xp_cmdshell` to execute a system com
 # strategies 
 
 ## triggering an error  
-try to just adding
+- if white  spaces are blocked you can use `%09` this is replacer of tab 
+- if `,`  `select 1,2,3;`is escaped you can use this way instead `select * from ((select 1)A join (select 2)B join (select 3)C);`
+- 
 
 
 
