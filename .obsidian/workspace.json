@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/SSRF.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
+                "file": "practical ethical hacking/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md"
+                "file": "practical ethical hacking/SSRF.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
+    "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/SSRF.md",
     "practical ethical hacking/access control.md",
     "practical ethical hacking/scenarios.md",
@@ -180,7 +181,6 @@
     "practical ethical hacking/WEB ATTACKS.md",
     "to do list for the week/second  week of the  summer.md",
     "practical ethical hacking/web techniques.md",
-    "practical ethical hacking/vulnerabilities checklist.md",
     "New folder/Pasted image 20240627155646.png",
     "New folder/Pasted image 20240627155629.png",
     "New folder/Pasted image 20240710192836.png",
