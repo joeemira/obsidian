@@ -198,8 +198,6 @@ You can exploit these APIs in SSRF attacks to retrieve sensitive data and potent
 
 # SSRF Vulnerabilities and Mitigation Techniques
 
-  
-
 ## Vulnerable Code Example (SSRF)
 
   
