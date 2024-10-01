@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
-                "mode": "preview",
+                "file": "practical ethical hacking/daily resources.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
+                "file": "practical ethical hacking/daily resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
+                "file": "practical ethical hacking/daily resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SSRF.md"
+                "file": "practical ethical hacking/daily resources.md"
               }
             }
           }
@@ -159,16 +159,22 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "practical ethical hacking/CSRF.md",
+    "german/links.md",
+    "practical ethical hacking/daily resources.md",
+    "german/schreiben.md",
+    "JS/NOTES.md",
+    "JS/JS codes.md",
+    "links for sec/links.md",
+    "linux/comand.md",
+    "Linux system admin/commands.md",
     "practical ethical hacking/SSRF.md",
+    "practical ethical hacking/CSRF.md",
     "example.md",
     "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/access control.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/writeups.md",
-    "german/schreiben.md",
-    "german/links.md",
     "practical ethical hacking/Insecure deserialization.md",
     "Insecure Deserialization.pdf",
     "millstones achieved.md",
@@ -180,18 +186,12 @@
     "Unti.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Untitled 3.md",
     "New folder/Pasted image 20240920202246.png",
     "New folder/Pasted image 20240920202103.png",
     "Pasted image 20240920202032.png",
     "Pasted image 20240920202000.png",
-    "links for sec/links.md",
-    "TODO/TODO LIST 2nd half of September.md",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "practical ethical hacking/clickjacking.md",
     "TODO",
-    "practical ethical hacking/WEB ATTACKS.md",
-    "to do list for the week/second  week of the  summer.md",
     "New folder/Pasted image 20240627155646.png",
     "New folder/Pasted image 20240627155629.png",
     "New folder/Pasted image 20240710192836.png",
