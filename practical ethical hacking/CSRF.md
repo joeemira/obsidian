@@ -250,3 +250,13 @@ $newEmail = $_POST['newEmail'];
 
 ``` 
 a sample of poc of csrf that checks for refereal header 
+
+
+
+
+tips 
+- may be checking for referrer header  [writeup ](https://flex0geek.blogspot.com/2019/04/critical-ibm-bypass-csrf-protection.html)
+- or origin 
+- if is getting the request as JSON he may be checking the content type 
+- or he can accept any content type try to manipulate the content type 
+	
