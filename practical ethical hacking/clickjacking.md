@@ -176,7 +176,7 @@ Defense:
 1. first you need to check if the endpoint allows Iframes  by using the script above
 2. .check for Frame busting scripts try to use the HTML5 iframe `sandbox` attribute. When this is set with the `allow-forms` or `allow-scripts` values and the `allow-top-navigation`            `<iframec id="victim_website" src="https://victim-website.com" sandbox="allow-forms"></iframve>    `
 3.  Combining clickjacking with a DOM XSS attack :if he is getting a parameter and do a function on it in the url you can make the user to sent a script in the parameter and trigger the script for him 
-# **mitigation**  
+# mitigation
 
 ### X-Frame-Options
 

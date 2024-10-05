@@ -13,12 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "6e8b621618bd9fde"
+            }
           },
           {
             "id": "aec0fdd256eeecce",
@@ -31,25 +30,6 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "8ee70aed4d56bc32",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "77b3dea6424ed50a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "6e8b621618bd9fde"
           }
         ]
       }
@@ -117,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md"
+                "file": "practical ethical hacking/CSRF.md"
               }
             }
           }
@@ -177,12 +157,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77b3dea6424ed50a",
+  "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "practical ethical hacking/writeups.md",
-    "practical ethical hacking/SOP ,CORS and CSP.md",
-    "practical ethical hacking/evade firewall.md",
+    "practical ethical hacking/clickjacking.md",
     "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/SOP ,CORS and CSP.md",
+    "practical ethical hacking/SQL injection.md",
+    "practical ethical hacking/writeups.md",
+    "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/daily resources.md",
     "german/links.md",
     "german/schreiben.md",
@@ -193,7 +175,6 @@
     "Linux system admin/commands.md",
     "practical ethical hacking/SSRF.md",
     "example.md",
-    "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/access control.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/XXS.md",
@@ -205,7 +186,6 @@
     "post for LinkedIn.md",
     "reminder.md",
     "scenarios.md",
-    "Unti.md",
     "New folder/Pasted image 20240920202246.png",
     "New folder/Pasted image 20240920202103.png",
     "Pasted image 20240920202032.png",

