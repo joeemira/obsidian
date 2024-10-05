@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/CSRF.md",
+                "file": "practical ethical hacking/CSRF payloads and checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/CSRF.md",
+                "file": "practical ethical hacking/CSRF payloads and checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/CSRF.md",
+                "file": "practical ethical hacking/CSRF payloads and checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,15 +137,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/CSRF.md"
+                "file": "practical ethical hacking/CSRF payloads and checklist.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +161,16 @@
   },
   "active": "2147c9ab56dd6925",
   "lastOpenFiles": [
-    "practical ethical hacking/clickjacking.md",
     "practical ethical hacking/CSRF.md",
-    "practical ethical hacking/SOP ,CORS and CSP.md",
-    "practical ethical hacking/SQL injection.md",
-    "practical ethical hacking/writeups.md",
+    "practical ethical hacking/web techniques.md",
+    "practical ethical hacking/CSRF payloads and checklist.md",
+    "practical ethical hacking/Unconfirmed 350797.crdownload",
     "practical ethical hacking/evade firewall.md",
+    "practical ethical hacking/content types.md",
+    "practical ethical hacking/SQL injection.md",
+    "practical ethical hacking/clickjacking.md",
+    "practical ethical hacking/SOP ,CORS and CSP.md",
+    "practical ethical hacking/writeups.md",
     "practical ethical hacking/daily resources.md",
     "german/links.md",
     "german/schreiben.md",
@@ -183,13 +189,10 @@
     "millstones achieved.md",
     "MOBILE HARDWARE.md",
     "practical ethical hacking/SESSION.md",
-    "post for LinkedIn.md",
-    "reminder.md",
-    "scenarios.md",
     "New folder/Pasted image 20240920202246.png",
     "New folder/Pasted image 20240920202103.png",
     "Pasted image 20240920202032.png",
-    "Pasted image 20240920202000.png",
+    "New folder/Pasted image 20240920202000.png",
     "Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "TODO",
     "New folder/Pasted image 20240627155646.png",
@@ -203,7 +206,6 @@
     "New Text Document (2).txt",
     "links for sec",
     "NETWORK AND CRYPTO",
-    "reports",
-    "practical ethical hacking"
+    "reports"
   ]
 }

