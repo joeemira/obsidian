@@ -316,6 +316,7 @@ tips
 - or he can accept any content type try to manipulate the content type 
 - csrf in json [writeup](https://dant0x65.medium.com/json-csrf-a1594955dd75)
 - [csrf and deal with CORS ](https://anonymousyogi.medium.com/json-csrf-csrf-that-none-talks-about-c2bf9a480937)
+- [ csrf in json ](https://sallam.gitbook.io/sec-88/write-ups/exploiting-json-based-csrf-the-hidden-threat-in-profile-management)
 # Finding Your First CSRF!
 1. Spot the state-changing actions on the application and keep a note on
 their locations and functionality.

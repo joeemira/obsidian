@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md"
+                "file": "practical ethical hacking/CSRF.md"
               }
             }
           }
@@ -162,15 +162,15 @@
   },
   "active": "9adbdb77cb8de2aa",
   "lastOpenFiles": [
+    "practical ethical hacking/CSRF payloads and checklist.md",
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/RCE.md",
     "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/tools and commands.md",
-    "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/SSRF.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/SESSION.md",
-    "practical ethical hacking/evade firewall.md",
-    "practical ethical hacking/CSRF.md",
     "practical ethical hacking/web techniques.md",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
     "practical ethical hacking/content types.md",
