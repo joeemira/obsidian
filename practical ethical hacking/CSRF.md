@@ -185,7 +185,7 @@ $newEmail = $_POST['newEmail'];
 
   
 
-- **SameSite Cookies**: Configure the `SameSite` attribute on cookies to prevent them from being sent in cross-site requests.
+- **SameSite Cookies**: Configure the `SameSite` attribute on cookies to prevent them from being sent in cross-site requests...
 
 - **Referer and Origin Checks**: Validate the `Referer` or `Origin` headers to ensure the request originates from a trusted domain.
 
