@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f3b251f0fdf1cafe",
+        "id": "8aed0f772bbe4761",
         "type": "tabs",
         "children": [
           {
-            "id": "aec0fdd256eeecce",
+            "id": "de4eb7d6d95b17cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SQL injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9adbdb77cb8de2aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO/study plan for the next two years.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b232b2f703e2c549",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/openredirect.md",
+                "file": "practical ethical hacking/access control.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "77d78adc9f272225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "practical ethical hacking/openredirect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/openredirect.md",
+                "file": "practical ethical hacking/access control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/openredirect.md",
+                "file": "practical ethical hacking/access control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/openredirect.md"
+                "file": "practical ethical hacking/access control.md"
               }
             }
           }
@@ -184,14 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b232b2f703e2c549",
+  "active": "de4eb7d6d95b17cc",
   "lastOpenFiles": [
-    "practical ethical hacking/SSRF.md",
+    "practical ethical hacking/XXE.md",
+    "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/openredirect.md",
+    "practical ethical hacking/vulnerabilities checklist.md",
+    "practical ethical hacking/SQL injection.md",
+    "TODO/study plan for the next two years.md",
+    "practical ethical hacking/SSRF.md",
     "practical ethical hacking/WEB ATTACKS.md",
     "Pasted image 20241012115139.png",
     "Cloud pentest/links.md",
-    "TODO/study plan for the next two years.md",
     "Cloud pentest",
     "TODO/TODO LIST 2nd half of September.md",
     "german/schreiben.md",
@@ -201,8 +168,6 @@
     "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/RCE.md",
-    "practical ethical hacking/SQL injection.md",
-    "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/SESSION.md",
     "practical ethical hacking/web techniques.md",
@@ -213,8 +178,6 @@
     "practical ethical hacking/writeups.md",
     "practical ethical hacking/daily resources.md",
     "german/links.md",
-    "JS/NOTES.md",
-    "JS/JS codes.md",
     "Insecure Deserialization.pdf",
     "images/Pasted image 20240920202246.png",
     "images/Pasted image 20240920202103.png",
