@@ -8,3 +8,5 @@
 Force browsing 
 force the application to open a panel or dashboard or file 
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master
+
+![[Pasted image 20241012115139.png]]

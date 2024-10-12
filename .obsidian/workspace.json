@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO/study plan for the next two years.md",
+                "file": "practical ethical hacking/openredirect.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77d78adc9f272225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "practical ethical hacking/openredirect.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO/study plan for the next two years.md",
+                "file": "practical ethical hacking/openredirect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO/study plan for the next two years.md",
+                "file": "practical ethical hacking/openredirect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO/study plan for the next two years.md"
+                "file": "practical ethical hacking/openredirect.md"
               }
             }
           }
@@ -174,8 +186,16 @@
   },
   "active": "b232b2f703e2c549",
   "lastOpenFiles": [
-    "example.md",
+    "practical ethical hacking/SSRF.md",
+    "practical ethical hacking/openredirect.md",
+    "practical ethical hacking/WEB ATTACKS.md",
+    "Pasted image 20241012115139.png",
+    "Cloud pentest/links.md",
     "TODO/study plan for the next two years.md",
+    "Cloud pentest",
+    "TODO/TODO LIST 2nd half of September.md",
+    "german/schreiben.md",
+    "example.md",
     "Untitled.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
@@ -183,7 +203,6 @@
     "practical ethical hacking/RCE.md",
     "practical ethical hacking/SQL injection.md",
     "practical ethical hacking/tools and commands.md",
-    "practical ethical hacking/SSRF.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/SESSION.md",
     "practical ethical hacking/web techniques.md",
@@ -194,13 +213,8 @@
     "practical ethical hacking/writeups.md",
     "practical ethical hacking/daily resources.md",
     "german/links.md",
-    "german/schreiben.md",
     "JS/NOTES.md",
     "JS/JS codes.md",
-    "links for sec/links.md",
-    "linux/comand.md",
-    "Linux system admin/commands.md",
-    "practical ethical hacking/access control.md",
     "Insecure Deserialization.pdf",
     "images/Pasted image 20240920202246.png",
     "images/Pasted image 20240920202103.png",
@@ -213,12 +227,10 @@
     "images/Pasted image 20240710192836.png",
     "images/Pasted image 20240627172936.png",
     "images/Pasted image 20240627161015.png",
-    "images/Pasted image 20240627160858.png",
     "New folder (2)",
     "joeemira.txt",
     "New Text Document (2).txt",
     "links for sec",
-    "network vault/NETWORK AND CRYPTO",
-    "reports"
+    "network vault/NETWORK AND CRYPTO"
   ]
 }

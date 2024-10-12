@@ -8,3 +8,7 @@ Früher ist er immer zu spät in die Schule gekommen und hatte immer andere Ausr
 Wisst ihr, was er dann gesagt hat?: „Ich bin im Aufzug festgesteckt.“, oder „Ich habe die Straße nicht gefunden.“  
 Aber das hat kein Lehrer geglaubt.
 
+
+
+## 222
+Hacken bedeutet, in Computersysteme oder Netzwerke einzudringen oder sie zu manipulieren, oft mit dem Ziel, Schwachstellen zu finden
