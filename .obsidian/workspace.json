@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/access control.md",
-                "mode": "preview",
+                "file": "practical ethical hacking/evade firewall.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/access control.md",
+                "file": "practical ethical hacking/evade firewall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/access control.md",
+                "file": "practical ethical hacking/evade firewall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/access control.md"
+                "file": "practical ethical hacking/evade firewall.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "de4eb7d6d95b17cc",
   "lastOpenFiles": [
+    "practical ethical hacking/openredirect.md",
+    "german/links.md",
+    "practical ethical hacking/access control.md",
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/tools and commands.md",
-    "practical ethical hacking/openredirect.md",
     "practical ethical hacking/vulnerabilities checklist.md",
     "practical ethical hacking/SQL injection.md",
     "TODO/study plan for the next two years.md",
@@ -176,8 +178,6 @@
     "practical ethical hacking/clickjacking.md",
     "practical ethical hacking/SOP ,CORS and CSP.md",
     "practical ethical hacking/writeups.md",
-    "practical ethical hacking/daily resources.md",
-    "german/links.md",
     "Insecure Deserialization.pdf",
     "images/Pasted image 20240920202246.png",
     "images/Pasted image 20240920202103.png",
