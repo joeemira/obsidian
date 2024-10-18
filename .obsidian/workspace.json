@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/writeups.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/writeups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md",
+                "file": "practical ethical hacking/writeups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/evade firewall.md"
+                "file": "practical ethical hacking/writeups.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "de4eb7d6d95b17cc",
   "lastOpenFiles": [
+    "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/openredirect.md",
     "german/links.md",
     "practical ethical hacking/access control.md",
@@ -168,7 +169,6 @@
     "Untitled.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
-    "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/RCE.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/SESSION.md",

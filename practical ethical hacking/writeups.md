@@ -5,6 +5,9 @@ https://github.com/devanshbatham/Awesome-Bugbounty-Writeups  all writeups
 https://github.com/juliocesarfort/public-pentesting-reports   valid pentesting reports 
 https://el5ateb.notion.site/Get-VPS-Server-70773afe25384f618d0855721c2a96d1  VPS 
 https://www.reddit.com/r/cybersecurity/comments/1focakd/burnout_in_cybersecurity/  burnout
+الرايت اب ده جميل 
+
+https://swilam.me/writeups/20xss.html?fbclid=IwY2xjawF8dblleHRuA2FlbQIxMQABHcoQcR9Fvhk14e0s4YO7ZEokQnZTndcMcoY7yF3fROU1mcnxT9axY48wTA_aem___FT6IKAkeg5jGipsA97Cw
 
 
 
