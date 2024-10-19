@@ -16,10 +16,27 @@
                 "file": "practical ethical hacking/writeups.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "writeups"
+            }
+          },
+          {
+            "id": "15ecb15904733bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "practical ethical hacking/SSTI_Testing_Checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSTI_Testing_Checklist"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "practical ethical hacking/writeups.md",
+                "file": "practical ethical hacking/SSTI_Testing_Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SSTI_Testing_Checklist"
             }
           },
           {
@@ -102,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "practical ethical hacking/writeups.md",
+                "file": "practical ethical hacking/SSTI_Testing_Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SSTI_Testing_Checklist"
             }
           },
           {
@@ -116,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "practical ethical hacking/writeups.md"
-              }
+                "file": "practical ethical hacking/SSTI_Testing_Checklist.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SSTI_Testing_Checklist"
             }
           }
         ],
@@ -147,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de4eb7d6d95b17cc",
+  "active": "15ecb15904733bc2",
   "lastOpenFiles": [
+    "practical ethical hacking/SSTI_Testing_Checklist.md",
     "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/openredirect.md",
     "german/links.md",
@@ -177,7 +209,6 @@
     "practical ethical hacking/content types.md",
     "practical ethical hacking/clickjacking.md",
     "practical ethical hacking/SOP ,CORS and CSP.md",
-    "practical ethical hacking/writeups.md",
     "Insecure Deserialization.pdf",
     "images/Pasted image 20240920202246.png",
     "images/Pasted image 20240920202103.png",
