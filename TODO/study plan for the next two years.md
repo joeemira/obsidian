@@ -190,3 +190,109 @@
 
 - **IELTS Prep**: While focusing on German, you can begin light IELTS preparation in early 2025, and intensify preparation starting in 2026, with full focus after June for the June IELTS exam.
 - **German Resources**: Use tools like **Deutsche Welle**, **Lingoda**, or **italki** for structured lessons and speaking practice.
+
+
+
+
+### **Sunday (University Day: 7 AM - 3 PM)**
+
+- **4:30 AM - 5:00 AM**: Morning prayer and light warm-up.
+- **5:00 AM - 5:30 AM**: A1 German revision (vocabulary flashcards or grammar basics).
+- **5:30 AM - 6:30 AM**: A2 German study (grammar or reading comprehension).
+- **6:30 AM - 7:00 AM**: Prepare for university.
+- **7:00 AM - 3:00 PM**: University classes.
+- **3:00 PM - 4:00 PM**: Rest and prayer.
+- **4:00 PM - 5:00 PM**: Cybersecurity study (tools research or labs).
+- **5:00 PM - 6:00 PM**: German listening practice (_Dark_ or podcasts).
+- **6:00 PM - 7:00 PM**: A2 German writing exercises.
+- **7:00 PM - 8:00 PM**: Dinner and unwind.
+- **8:00 PM - 9:00 PM**: Bug bounty learning (tools setup or reading writeups).
+- **9:00 PM - 10:00 PM**: Relaxation (free choice: German videos, series).
+
+---
+
+### **Monday (University Day: 7 AM - 7 PM)**
+
+- **4:30 AM - 5:00 AM**: Morning prayer and light stretching.
+- **5:00 AM - 6:00 AM**: A2 German study (vocabulary and reading).
+- **6:00 AM - 6:30 AM**: Breakfast and prepare for university.
+- **7:00 AM - 7:00 PM**: University classes (rest during breaks).
+- **7:00 PM - 8:00 PM**: Dinner and prayer.
+- **8:00 PM - 9:00 PM**: Cybersecurity light study (read articles or practice labs).
+- **9:00 PM - 9:30 PM**: A1 German vocabulary flashcards.
+- **9:30 PM - 10:00 PM**: Relaxation (podcasts or _Dark_).
+-----------------------------------------------------
+#### **Tuesday:**
+
+- **4:30 AM - 5:00 AM**: Morning prayer.
+- **5:00 AM - 7:00 AM**: A2 German (reading and speaking practice).
+- **7:00 AM - 8:30 AM**: Cybersecurity (lab or study vulnerabilities).
+- **8:30 AM - 10:00 AM**: A1 German vocabulary review.
+- **10:00 AM - 1:00 PM**: University coursework and projects.
+- **1:00 PM - 2:00 PM**: Lunch and prayer.
+- **2:00 PM - 4:00 PM**: Bug bounty research or reconnaissance practice.
+- **4:00 PM - 6:00 PM**: Leisure (_Dark_ or reading in German).
+---
+
+### **Wednesday (University Day: 10:30 AM - 6 PM)**
+
+- **4:30 AM - 5:00 AM**: Morning prayer and light exercise.
+- **5:00 AM - 6:30 AM**: A2 German (grammar lesson and exercises).
+- **6:30 AM - 7:30 AM**: Cybersecurity study (labs or certification topics).
+- **7:30 AM - 8:00 AM**: Breakfast and prayer.
+- **8:00 AM - 9:00 AM**: Bug bounty prep (tools or tutorials).
+- **9:00 AM - 10:00 AM**: A1 German review (past topics).
+- **10:30 AM - 6:00 PM**: University classes.
+- **6:00 PM - 7:00 PM**: Dinner and rest.
+- **7:00 PM - 8:00 PM**: German listening (_Dark_ or news).
+- **8:00 PM - 9:00 PM**: Relaxation or light reading.
+
+---
+
+### **Thursday (Non-University Day)**
+
+- **4:30 AM - 5:00 AM**: Morning prayer and journaling.
+- **5:00 AM - 6:00 AM**: A2 German (grammar and speaking).
+- **6:00 AM - 6:30 AM**: A1 German vocabulary flashcards.
+- **6:30 AM - 7:30 AM**: Cybersecurity study (penetration testing lab).
+- **7:30 AM - 8:00 AM**: Breakfast and prayer.
+- **8:00 AM - 9:30 AM**: A2 German (reading comprehension and writing).
+- **9:30 AM - 10:30 AM**: Bug bounty (start practicing simple reconnaissance).
+- **10:30 AM - 12:30 PM**: Cybersecurity (read/write research on vulnerabilities).
+- **12:30 PM - 1:30 PM**: Lunch and prayer.
+- **1:30 PM - 2:30 PM**: A1 German revision (listening and vocabulary).
+- **2:30 PM - 4:00 PM**: Rest or leisure (podcasts or series).
+- **4:00 PM - 5:30 PM**: Cybersecurity labs or certifications.
+- **5:30 PM - 7:00 PM**: Dinner and prayer.
+- **7:00 PM - 8:00 PM**: Relaxation (_Dark_ or free reading).
+
+---
+
+### **Friday (Non-University Day)**
+
+- **4:30 AM - 5:00 AM**: Morning prayer.
+- **5:00 AM - 7:00 AM**: A2 German (intensive grammar and exercises).
+- **7:00 AM - 8:00 AM**: Cybersecurity (study writeups).
+- **8:00 AM - 9:00 AM**: A1 German revision (short practice).
+- **9:00 AM - 12:00 PM**: Bug bounty hunting practice.
+- **12:00 PM - 1:00 PM**: Lunch and prayer.
+- **1:00 PM - 3:00 PM**: Cybersecurity lab or certifications.
+- **3:00 PM - 5:00 PM**: Rest or leisure (_Dark_ or podcasts).
+- **5:00 PM - 7:00 PM**: A2 German (speaking and writing practice).
+
+---
+
+### **Saturday  (Weekend Study Days)**
+
+#### **Saturday:**
+
+- **4:30 AM - 5:00 AM**: Morning prayer and breakfast.
+- **5:00 AM - 7:00 AM**: A2 German intensive (writing and reading).
+- **7:00 AM - 8:30 AM**: Cybersecurity labs (specific tools practice).
+- **8:30 AM - 9:30 AM**: A1 German (flashcards and short revision).
+- **9:30 AM - 12:00 PM**: University coursework.
+- **12:00 PM - 1:00 PM**: Lunch and prayer.
+- **1:00 PM - 3:00 PM**: Bug bounty hunting or CTF practice.
+- **3:00 PM - 5:00 PM**: Rest or leisure (_Dark_ or gaming).
+- **5:00 PM - 7:00 PM**: A2 German (listening and grammar).
+

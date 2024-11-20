@@ -41,26 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO/TODO LIST 2nd half of September.md",
-                "mode": "preview",
+                "file": "TODO/study plan for the next two years.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO LIST 2nd half of September"
+              "title": "study plan for the next two years"
             }
           },
           {
-            "id": "041fda1f9f202ad4",
+            "id": "ed37a1e0a0d4ed03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "how to open the project.md",
-                "mode": "preview",
+                "file": "TODO/study plan for the next two years.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how to open the project"
+              "title": "study plan for the next two years"
             }
           },
           {
@@ -218,21 +218,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "041fda1f9f202ad4",
+  "active": "ed37a1e0a0d4ed03",
   "lastOpenFiles": [
+    "TODO/TODO LIST 2nd half of September.md",
+    "TODO/study plan for the next two years.md",
+    "Pasted image 20241116184504.png",
+    "Pasted image 20241116184204.png",
+    "Pasted image 20241116183830.png",
+    "Pasted image 20241116164336.png",
+    "Pasted image 20241116163938.png",
+    "Pasted image 20241116163851.png",
+    "Pasted image 20241116163645.png",
+    "german/links.md",
+    "german/schreiben.md",
+    "how to open the project.md",
     "Pasted image 20241116191340.png",
     "Pasted image 20241116191315.png",
-    "Pasted image 20241116184504.png",
     "Pasted image 20241116184356.png",
-    "Pasted image 20241116184204.png",
-    "Pasted image 20241116184051.png",
-    "Pasted image 20241116183830.png",
-    "Pasted image 20241116183610.png",
-    "Pasted image 20241116183515.png",
-    "Pasted image 20241116183403.png",
-    "Pasted image 20241116183330.png",
-    "how to open the project.md",
-    "TODO/TODO LIST 2nd half of September.md",
     "how to open the project",
     "practical ethical hacking/CSRF.md",
     "update.bat",
@@ -257,11 +259,9 @@
     "practical ethical hacking/SSTI_Testing_Checklist.md",
     "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/openredirect.md",
-    "german/links.md",
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/tools and commands.md",
     "practical ethical hacking/vulnerabilities checklist.md",
-    "practical ethical hacking/SQL injection.md",
     "Cloud pentest",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
     "Insecure Deserialization.pdf",
