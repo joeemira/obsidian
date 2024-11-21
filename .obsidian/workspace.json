@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
+                "file": "german/schreiben.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOP ,CORS and CSP"
+              "title": "schreiben"
             }
           },
           {
@@ -220,6 +220,11 @@
   },
   "active": "ed37a1e0a0d4ed03",
   "lastOpenFiles": [
+    "JS/JS codes.md",
+    "practical ethical hacking/weaknesses.md",
+    "practical ethical hacking/SSTI_Testing_Checklist.md",
+    "practical ethical hacking/SOP ,CORS and CSP.md",
+    "practical ethical hacking/CSRF.md",
     "TODO/study plan for the next two years.md",
     "TODO/TODO LIST 2nd half of September.md",
     "Pasted image 20241116184504.png",
@@ -236,12 +241,10 @@
     "Pasted image 20241116191315.png",
     "Pasted image 20241116184356.png",
     "how to open the project",
-    "practical ethical hacking/CSRF.md",
     "update.bat",
     "Unconfirmed 27186.crdownload",
     "links for sec/links.md",
     "JS/NOTES.md",
-    "JS/JS codes.md",
     "graduation project/sponsored inshallah.md",
     "Cloud pentest/links.md",
     "CV/ssss.md",
@@ -256,12 +259,9 @@
     "series and movies/series.md",
     "practical ethical hacking/Insecure deserialization.md",
     "practical ethical hacking/writeups.md",
-    "practical ethical hacking/SSTI_Testing_Checklist.md",
     "practical ethical hacking/evade firewall.md",
     "practical ethical hacking/openredirect.md",
     "practical ethical hacking/XXE.md",
-    "practical ethical hacking/tools and commands.md",
-    "practical ethical hacking/vulnerabilities checklist.md",
     "Cloud pentest",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
     "Insecure Deserialization.pdf",

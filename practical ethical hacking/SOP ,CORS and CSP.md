@@ -150,5 +150,26 @@ By carefully configuring SOP, CORS, and CSP, you can protect your web applicatio
 
   
 
-# **sop  
-is a security  
+#  **SOP
+is a security  measure that is used to limit web application from access responses from from requests they made to another  origin (scheme, host, and port). (eg)  to not make you send a request to you bank account asking for ur credit card 
+that requests is a XMLHTTP requests 
+
+# **CORS 
+when you want to lighten your grep on SOP and allow for resource sharing between two origins 
+
+
+
+
+### **SOP and JSON Requests**
+
+The **Same-Origin Policy** ensures that a web page can only make requests to resources within the same origin (protocol, domain, and port). JSON itself does not affect SOP, but the request's characteristics do:
+
+1. **Simple Requests**:
+    
+    - If the request uses the `Content-Type: application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain`, and the request method is `GET`, `POST`, or `HEAD`, it is considered "simple" and won't trigger a preflight request.
+    - JSON requests typically use `Content-Type: application/json`, which is **not a simple request**. Thus, the browser performs a **preflight check**.
+2. **Non-Simple Requests**:
+    
+    - A JSON request (`Content-Type: application/json`) triggers a **preflight request** using the HTTP `OPTIONS` method. The browser asks the server for permission to proceed with the actual request.
+
+i
