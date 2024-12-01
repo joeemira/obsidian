@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "german/schreiben.md",
+                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "schreiben"
+              "title": "SOP ,CORS and CSP"
             }
           },
           {
@@ -220,6 +220,7 @@
   },
   "active": "ed37a1e0a0d4ed03",
   "lastOpenFiles": [
+    "german/schreiben.md",
     "JS/JS codes.md",
     "practical ethical hacking/weaknesses.md",
     "practical ethical hacking/SSTI_Testing_Checklist.md",
@@ -235,7 +236,6 @@
     "Pasted image 20241116163851.png",
     "Pasted image 20241116163645.png",
     "german/links.md",
-    "german/schreiben.md",
     "how to open the project.md",
     "Pasted image 20241116191340.png",
     "Pasted image 20241116191315.png",
