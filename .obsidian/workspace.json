@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/CSRF payloads and checklist.md",
+                "file": "practical ethical hacking/XXS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSRF payloads and checklist"
+              "title": "XXS"
             }
           },
           {
@@ -220,14 +220,18 @@
   },
   "active": "ed37a1e0a0d4ed03",
   "lastOpenFiles": [
-    "practical ethical hacking/CSRF.md",
+    "Pasted image 20250107194828.png",
+    "Pasted image 20250107194809.png",
+    "TODO/study plan for the next two years.md",
+    "how to open the project.md",
+    "JS/Promises in JavaScript.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
+    "practical ethical hacking/CSRF.md",
     "practical ethical hacking/SOP ,CORS and CSP.md",
     "german/schreiben.md",
     "JS/JS codes.md",
     "practical ethical hacking/weaknesses.md",
     "practical ethical hacking/SSTI_Testing_Checklist.md",
-    "TODO/study plan for the next two years.md",
     "TODO/TODO LIST 2nd half of September.md",
     "Pasted image 20241116184504.png",
     "Pasted image 20241116184204.png",
@@ -237,10 +241,8 @@
     "Pasted image 20241116163851.png",
     "Pasted image 20241116163645.png",
     "german/links.md",
-    "how to open the project.md",
     "Pasted image 20241116191340.png",
     "Pasted image 20241116191315.png",
-    "Pasted image 20241116184356.png",
     "how to open the project",
     "update.bat",
     "Unconfirmed 27186.crdownload",
@@ -260,8 +262,6 @@
     "series and movies/series.md",
     "practical ethical hacking/Insecure deserialization.md",
     "practical ethical hacking/writeups.md",
-    "practical ethical hacking/evade firewall.md",
-    "practical ethical hacking/openredirect.md",
     "Cloud pentest",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
     "Insecure Deserialization.pdf",
