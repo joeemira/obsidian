@@ -3,7 +3,10 @@ exploitation
 
 - if the pyload is inserted in a href    you can use `javascript:payload`
 - if you found xss try to find falire to invalidate session on logout
-- 
+
+
+
+##### htmlentities
 ```html
 <a href='/profile/<?php echo htmlentities($user); ?>'></a>
 ```
@@ -77,3 +80,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 ![[Pasted image 20250107194809.png]]
 ![[Pasted image 20250107194828.png]]
+
+##### in_array
+```php
+$parts = explode('.', $GET['jwt']);
+$algorithms = array('HS256', 'HS384', 'HS512');
+if (3 !== count($parts)) {
+  throw new \InvalidArgumentException('Invalid or malformed JWT supplied.');
+}
+$header = jsondecode(self::decode($parts[0]), true);
+if (in_array($header['alg'], $algorithms)) {
+  ...
+}
+```
+in_array if the attacker sent the algorithm part = 0 then the  check will return valid cuz the comparison is now between INT & string so it will be always true  
+
+**metigate**
+in_array(_search, array, type_) the type must be set to <span style="color:rgb(0, 176, 80)">TRUE</span>  to make the search be on type and the content   be === not == 
