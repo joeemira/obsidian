@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/XXS.md",
+                "file": "practical ethical hacking/SOP ,CORS and CSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XXS"
+              "title": "SOP ,CORS and CSP"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fli",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +128,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,15 +221,15 @@
   },
   "active": "ed37a1e0a0d4ed03",
   "lastOpenFiles": [
-    "JS/JS deobfscation.md",
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/XXS.md",
+    "JS/JS deobfscation.md",
     "Pasted image 20250107194828.png",
     "Pasted image 20250107194809.png",
     "TODO/study plan for the next two years.md",
     "how to open the project.md",
     "JS/Promises in JavaScript.md",
-    "practical ethical hacking/CSRF payloads and checklist.md",
-    "practical ethical hacking/CSRF.md",
     "practical ethical hacking/SOP ,CORS and CSP.md",
     "german/schreiben.md",
     "JS/JS codes.md",

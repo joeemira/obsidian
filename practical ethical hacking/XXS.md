@@ -99,5 +99,6 @@ in_array if the attacker sent the algorithm part = 0 then the  check will return
 in_array(_search, array, type_) the type must be set to <span style="color:rgb(0, 176, 80)">TRUE</span>  to make the search be on type and the content   be === not == 
 
 ##### always check the libraries used in the website and search for exploitation in it 
-for example for angular JS  if the input field isn't filtered u may use `{{ this.constructor.constructor('alert("foo")')() }}`
+for example for angular JS  if the input field isn't filtered u may use `{{this.constructor.constructor('alert("hack3d")')() }}`
+
 
