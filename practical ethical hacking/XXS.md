@@ -1,8 +1,9 @@
 exploitation 
 
 
-- if the pyload is inserted in a href    you can use `javascript:payload`
-- if you found xss try to find falire to invalidate session on logout
+- if the payload is inserted in a href    you can use `javascript:payload`
+- if you found xss try to find failure to invalidate session on logout
+- 
 
 
 
@@ -101,4 +102,24 @@ in_array(_search, array, type_) the type must be set to <span style="color:rgb(0
 ##### always check the libraries used in the website and search for exploitation in it 
 for example for angular JS  if the input field isn't filtered u may use `{{this.constructor.constructor('alert("hack3d")')() }}`
 
+##### Custom Tags
 
+1. **Custom HTML Tags**: Unlike standard HTML tags (e.g., `<script>`, `<h1>`), custom tags are user-defined and typically include a hyphen (e.g., `<custom-tag>`). These tags are not blocked by the WAF in this lab, allowing them to be injected into the DOM.
+    
+2. **Injecting Custom Tags**: By injecting a custom tag (e.g., `<custom-tag>`), the attacker can add attributes like `onmouseover` or `onfocus` to execute JavaScript when specific events occur.
+
+##### Making the Payload Auto-Execute
+
+To make the XSS payload execute automatically without user interaction (e.g., hovering or clicking), the attacker uses the following techniques:
+
+1. **`onfocus` Event**: Instead of `onmouseover`, the attacker uses the `onfocus` event, which triggers when the element gains focus.
+    
+2. **`id` Attribute**: The custom tag is given an `id` (e.g., `id="x"`) so it can be targeted directly from the URL using a hashtag (e.g., `#x`).
+    
+3. **`tabindex` Attribute**: To make the custom tag focusable, the attacker adds the `tabindex` attribute (e.g., `tabindex="1"`). This allows the element to be focused automatically when the page loads.
+    
+4. **URL Crafting**: The final malicious URL includes the `#x` fragment, which causes the browser to focus on the custom tag with `id="x"` as soon as the page loads, triggering the `onfocus` event and executing the JavaScript payload (e.g., `alert(document.cookie)`).
+
+##### notes 
+- what if you want to to make the severity of you xss  high and not demand user interaction but only a few tags are allowed like `onresize` so we need auto resize script so if we found that the page allows me to use it in `iframes` so we can use code like that 1. `<iframe src="https://vulnerablePage?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
+- 
