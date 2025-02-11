@@ -107,6 +107,14 @@ for example for angular JS  if the input field isn't filtered u may use `{{this.
 1. **Custom HTML Tags**: Unlike standard HTML tags (e.g., `<script>`, `<h1>`), custom tags are user-defined and typically include a hyphen (e.g., `<custom-tag>`). These tags are not blocked by the WAF in this lab, allowing them to be injected into the DOM.
     
 2. **Injecting Custom Tags**: By injecting a custom tag (e.g., `<custom-tag>`), the attacker can add attributes like `onmouseover` or `onfocus` to execute JavaScript when specific events occur.
+##### SVG payloads 
+```javascript
+<svg><animatetransform onbegin=alert(1)>
+```
+- The `onbegin` event is triggered when an animation begins.
+    
+- By adding `onbegin=alert(1)` to the `<animatetransform>` element, you're telling the browser to execute the `alert(1)` JavaScript function as soon as the animation starts.
+
 
 ##### Making the Payload Auto-Execute
 
@@ -122,4 +130,5 @@ To make the XSS payload execute automatically without user interaction (e.g., ho
 
 ##### notes 
 - what if you want to to make the severity of you xss  high and not demand user interaction but only a few tags are allowed like `onresize` so we need auto resize script so if we found that the page allows me to use it in `iframes` so we can use code like that 1. `<iframe src="https://vulnerablePage?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
-- 
+- even if the element isn't visible in the web site it still be vulnerable to XSS for ex  the website takes the URL and put it in `a` tag in the `head` so it's not visible so we can use that payload `https://victim.com?'accesskey='x'onclick='alert(1)` so when the user press ALT +X the payload will execute  '
+-  '
