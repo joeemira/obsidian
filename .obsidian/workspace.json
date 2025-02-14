@@ -109,7 +109,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -121,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xss",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,8 +143,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,9 +235,12 @@
   },
   "active": "dd25274ae7e6ae5f",
   "lastOpenFiles": [
+    "practical ethical hacking/bash scripts.md",
+    "practical ethical hacking/writeups.md",
+    "practical ethical hacking/web techniques.md",
+    "practical ethical hacking/XXS.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
-    "practical ethical hacking/XXS.md",
     "JS/JS deobfscation.md",
     "Pasted image 20250107194828.png",
     "Pasted image 20250107194809.png",
@@ -274,9 +277,6 @@
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/access control.md",
     "outlier",
-    "series and movies/movies.md",
-    "series and movies/series.md",
-    "practical ethical hacking/Insecure deserialization.md",
     "Cloud pentest",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
     "Insecure Deserialization.pdf",

