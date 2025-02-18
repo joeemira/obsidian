@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/XXS.md",
+                "file": "practical ethical hacking/CSRF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XXS"
+              "title": "CSRF"
             }
           },
           {
@@ -235,12 +235,12 @@
   },
   "active": "dd25274ae7e6ae5f",
   "lastOpenFiles": [
+    "practical ethical hacking/CSRF payloads and checklist.md",
+    "practical ethical hacking/XXS.md",
     "practical ethical hacking/bash scripts.md",
     "practical ethical hacking/writeups.md",
     "practical ethical hacking/web techniques.md",
-    "practical ethical hacking/XXS.md",
     "practical ethical hacking/CSRF.md",
-    "practical ethical hacking/CSRF payloads and checklist.md",
     "JS/JS deobfscation.md",
     "Pasted image 20250107194828.png",
     "Pasted image 20250107194809.png",
