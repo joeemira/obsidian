@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/CSRF.md",
-                "mode": "source",
+                "file": "practical ethical hacking/XXS.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSRF"
+              "title": "XXS"
             }
           },
           {
@@ -235,12 +235,14 @@
   },
   "active": "dd25274ae7e6ae5f",
   "lastOpenFiles": [
-    "practical ethical hacking/CSRF payloads and checklist.md",
+    "usefull.md",
     "practical ethical hacking/XXS.md",
+    "practical ethical hacking/XXE.md",
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/bash scripts.md",
     "practical ethical hacking/writeups.md",
     "practical ethical hacking/web techniques.md",
-    "practical ethical hacking/CSRF.md",
     "JS/JS deobfscation.md",
     "Pasted image 20250107194828.png",
     "Pasted image 20250107194809.png",
@@ -274,8 +276,6 @@
     "practical ethical hacking/SSRF.md",
     "graduation project",
     "outlier/criteria.md",
-    "practical ethical hacking/scenarios.md",
-    "practical ethical hacking/access control.md",
     "outlier",
     "Cloud pentest",
     "practical ethical hacking/Unconfirmed 350797.crdownload",
