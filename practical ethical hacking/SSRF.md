@@ -40,7 +40,6 @@ you can use <span style="color:rgb(146, 208, 80)">@</span> to tell the server wh
 `(POST request body) user_id=1234&url=https://127.0.0.1#/pics.example.com
 <span style="color:rgb(112, 48, 160)">the hash here commenting all the content after it </span>
 
-
 ## bypassing blacklist 
 ### Fooling It with Redirects
 `https://public.example.com/proxy?url=https://attacker.com/ssrf`
@@ -190,11 +189,11 @@ You can exploit these APIs in SSRF attacks to retrieve sensitive data and potent
 
 
 # ideas 
-- [x] Spot Features Prone to SSRFs  like mentioned above 
-- [x] check if the website send request to any ULR 
-- [x] check if he uses referrer header for analytics by inserting you collaborator URL 
-- [x] http://127.1/admin instead of localhost and all the bypasses i mentioned earlier
-- [x] try to fiend any redirection page and try to exploit ssrf using open redirect   
+- [ ] Spot Features Prone to SSRFs  like mentioned above
+- [ ] check if the website send request to any ULR
+- [ ] check if he uses referrer header for analytics by inserting you collaborator URL
+- [ ] http://127.1/aيmin instead of localhost and all the bypasses I mentioned earlier
+- [ ] try to find any redirection page and try to exploit ssrf using open redirect
 
 # SSRF Vulnerabilities and Mitigation Techniques
 

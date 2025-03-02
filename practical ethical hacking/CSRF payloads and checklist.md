@@ -208,7 +208,7 @@ When setting a cookie with `SameSite=None`, the website must also include the 
 ###  if he don't use CSRF token but uses `lax` or default same site cookie settings 
 if he uses `lax` `chrome` initiates `lax` after `120 sec` 
 if he accepts the submission over a `get` request then we can overwrite the method at CSRF POC 
-as we know when using `lax` we can only make the victim send cookie cross sited only if he uses get request so we can over write it like that 
+as we know when using `lax` we can only make the victim send cookie cross sited only if he uses GET request so we can over write it like that 
 ```html
 <html>
 <body>

