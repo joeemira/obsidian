@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/SSRF.md",
-                "mode": "preview",
+                "file": "practical ethical hacking/OS command injection.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSRF"
+              "title": "OS command injection"
             }
           },
           {
@@ -157,8 +157,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,10 +247,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a435b52d1578ce4",
+  "active": "c45b102c4617fe70",
   "lastOpenFiles": [
-    "practical ethical hacking/scenarios.md",
     "practical ethical hacking/SSRF.md",
+    "practical ethical hacking/OS command injection.md",
+    "practical ethical hacking/scenarios.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/CSRF.md",
     "usefull.md",
@@ -288,7 +288,6 @@
     "JS/NOTES.md",
     "graduation project/sponsored inshallah.md",
     "Cloud pentest/links.md",
-    "CV/ssss.md",
     "CV",
     "graduation project",
     "outlier",
