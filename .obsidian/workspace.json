@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fastapi/creating first API app walkthrough.md",
+                "file": "practical ethical hacking/CSRF payloads and checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "creating first API app walkthrough"
+              "title": "CSRF payloads and checklist"
             }
           },
           {
@@ -263,13 +263,13 @@
   },
   "active": "aaaf101b9dc2e0e1",
   "lastOpenFiles": [
-    "practical ethical hacking/OS command injection.md",
+    "practical ethical hacking/CSRF.md",
     "fastapi/creating first API app walkthrough.md",
+    "practical ethical hacking/OS command injection.md",
     "fastapi",
     "practical ethical hacking/SSRF.md",
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
-    "practical ethical hacking/CSRF.md",
     "usefull.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/XXE.md",
