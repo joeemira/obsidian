@@ -1,0 +1,1 @@
+gifsicle TO CREAT GIF PAYLOAD 
