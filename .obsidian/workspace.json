@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/XXE.md",
+                "file": "practical ethical hacking/CSRF payloads and checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XXE"
+              "title": "CSRF payloads and checklist"
             }
           },
           {
@@ -263,6 +263,8 @@
   },
   "active": "aaaf101b9dc2e0e1",
   "lastOpenFiles": [
+    "practical ethical hacking/CSRF.md",
+    "practical ethical hacking/XXE.md",
     "practical ethical hacking/SSTI_Testing_Checklist.md",
     "practical ethical hacking/SSRF.md",
     "practical ethical hacking/SQL injection.md",
@@ -288,9 +290,7 @@
     "practical ethical hacking/SOP ,CORS and CSP.md",
     "practical ethical hacking/XXS.md",
     "practical ethical hacking/CSRF payloads and checklist.md",
-    "practical ethical hacking/CSRF.md",
     "fastapi/creating first API app walkthrough.md",
-    "practical ethical hacking/OS command injection.md",
     "fastapi",
     "Pasted image 20241116184504.png",
     "Pasted image 20241116184204.png",
