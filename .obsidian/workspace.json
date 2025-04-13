@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Youssef Mohamed Mahmoud Zaki.md",
+                "file": "AI pentest/resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Youssef Mohamed Mahmoud Zaki"
+              "title": "resources"
             }
           },
           {
@@ -277,8 +277,10 @@
   },
   "active": "71ecdb6367426d42",
   "lastOpenFiles": [
-    "practical ethical hacking/CSRF payloads and checklist.md",
     "Youssef Mohamed Mahmoud Zaki.md",
+    "AI pentest/resources.md",
+    "AI pentest",
+    "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/CSRF.md",
     "practical ethical hacking/XXE.md",
     "practical ethical hacking/SSTI_Testing_Checklist.md",
@@ -304,7 +306,6 @@
     "practical ethical hacking/openredirect.md",
     "practical ethical hacking/python.md",
     "practical ethical hacking/SOP ,CORS and CSP.md",
-    "practical ethical hacking/XXS.md",
     "fastapi",
     "Pasted image 20241116184504.png",
     "Pasted image 20241116184204.png",
@@ -321,7 +322,6 @@
     "graduation project",
     "outlier",
     "Cloud pentest",
-    "practical ethical hacking/Unconfirmed 350797.crdownload",
-    "Insecure Deserialization.pdf"
+    "practical ethical hacking/Unconfirmed 350797.crdownload"
   ]
 }
