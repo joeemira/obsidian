@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "practical ethical hacking/tools and commands.md",
+                "file": "usefull.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tools and commands"
+              "title": "usefull"
             }
           },
           {
@@ -178,7 +178,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlmap",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,8 +199,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -292,9 +291,11 @@
   },
   "active": "1194bc6826b5c2be",
   "lastOpenFiles": [
-    "use case diagram actors and functionalities.md",
-    "AI pentest/resources.md",
     "Youssef Mohamed Mahmoud Zaki.md",
+    "usefull.md",
+    "use case diagram actors and functionalities.md",
+    "practical ethical hacking/tools and commands.md",
+    "AI pentest/resources.md",
     "AI pentest",
     "practical ethical hacking/CSRF payloads and checklist.md",
     "practical ethical hacking/CSRF.md",
@@ -307,7 +308,6 @@
     "practical ethical hacking/scenarios.md",
     "practical ethical hacking/RCE.md",
     "practical ethical hacking/SESSION.md",
-    "practical ethical hacking/tools and commands.md",
     "Pasted image 20250107194828.png",
     "Pasted image 20250107194809.png",
     "TODO/TODO LIST 2nd half of September.md",
@@ -320,7 +320,6 @@
     "practical ethical hacking/Information gathering.md",
     "practical ethical hacking/Insecure deserialization.md",
     "practical ethical hacking/openredirect.md",
-    "practical ethical hacking/python.md",
     "fastapi",
     "Pasted image 20241116184504.png",
     "Pasted image 20241116184204.png",
